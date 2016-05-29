@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Population No. of The Cities in USA</title>
+    
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  
+    
+  <!-- web fonts -->
+  <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+
+  </style>    
+    
+  <!-- reveal.js -->
+  <style type="text/css"  >
+@charset "UTF-8";/*!
+ * reveal.js
+ * http://lab.hakim.se/reveal-js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 Hakim El Hattab, http://hakim.se
+ */ html,body,.reveal div,.reveal span,.reveal applet,.reveal object,.reveal iframe,.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6,.reveal p,.reveal blockquote,.reveal pre,.reveal a,.reveal abbr,.reveal acronym,.reveal address,.reveal big,.reveal cite,.reveal code,.reveal del,.reveal dfn,.reveal em,.reveal img,.reveal ins,.reveal kbd,.reveal q,.reveal s,.reveal samp,.reveal small,.reveal strike,.reveal strong,.reveal sub,.reveal sup,.reveal tt,.reveal var,.reveal b,.reveal u,.reveal i,.reveal center,.reveal dl,.reveal dt,.reveal dd,.reveal ol,.reveal ul,.reveal li,.reveal fieldset,.reveal form,.reveal label,.reveal legend,.reveal table,.reveal caption,.reveal tbody,.reveal tfoot,.reveal thead,.reveal tr,.reveal th,.reveal td,.reveal article,.reveal aside,.reveal canvas,.reveal details,.reveal embed,.reveal figure,.reveal figcaption,.reveal footer,.reveal header,.reveal hgroup,.reveal menu,.reveal nav,.reveal output,.reveal ruby,.reveal section,.reveal summary,.reveal time,.reveal mark,.reveal audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}.reveal article,.reveal aside,.reveal details,.reveal figcaption,.reveal figure,.reveal footer,.reveal header,.reveal hgroup,.reveal menu,.reveal nav,.reveal section{display:block}html,body{width:100%;height:100%;overflow:hidden}body{position:relative;line-height:1}::selection{background:#FF5E99;color:#fff;text-shadow:none}.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6{-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;word-wrap:break-word}.reveal h1{font-size:3.77em}.reveal h2{font-size:2.11em}.reveal h3{font-size:1.55em}.reveal h4{font-size:1em}.reveal .slides section .fragment{opacity:0;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}.reveal .slides section .fragment.visible{opacity:1}.reveal .slides section .fragment.grow{opacity:1}.reveal .slides section .fragment.grow.visible{-webkit-transform:scale(1.3);-moz-transform:scale(1.3);-ms-transform:scale(1.3);-o-transform:scale(1.3);transform:scale(1.3)}.reveal .slides section .fragment.shrink{opacity:1}.reveal .slides section .fragment.shrink.visible{-webkit-transform:scale(0.7);-moz-transform:scale(0.7);-ms-transform:scale(0.7);-o-transform:scale(0.7);transform:scale(0.7)}.reveal .slides section .fragment.zoom-in{opacity:0;-webkit-transform:scale(0.1);-moz-transform:scale(0.1);-ms-transform:scale(0.1);-o-transform:scale(0.1);transform:scale(0.1)}.reveal .slides section .fragment.zoom-in.visible{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}.reveal .slides section .fragment.roll-in{opacity:0;-webkit-transform:rotateX(90deg);-moz-transform:rotateX(90deg);-ms-transform:rotateX(90deg);-o-transform:rotateX(90deg);transform:rotateX(90deg)}.reveal .slides section .fragment.roll-in.visible{opacity:1;-webkit-transform:rotateX(0);-moz-transform:rotateX(0);-ms-transform:rotateX(0);-o-transform:rotateX(0);transform:rotateX(0)}.reveal .slides section .fragment.fade-out{opacity:1}.reveal .slides section .fragment.fade-out.visible{opacity:0}.reveal .slides section .fragment.highlight-red,.reveal .slides section .fragment.highlight-green,.reveal .slides section .fragment.highlight-blue{opacity:1}.reveal .slides section .fragment.highlight-red.visible{color:#ff2c2d}.reveal .slides section .fragment.highlight-green.visible{color:#17ff2e}.reveal .slides section .fragment.highlight-blue.visible{color:#1b91ff}.reveal:after{content:'';font-style:italic}.reveal img,.reveal video,.reveal iframe{max-width:95%;max-height:95%}.reveal a{position:relative}.reveal strong,.reveal b{font-weight:700}.reveal em,.reveal i{font-style:italic}.reveal ol,.reveal ul{display:inline-block;text-align:left;margin:0 0 0 1em}.reveal ol{list-style-type:decimal}.reveal ul{list-style-type:disc}.reveal ul ul{list-style-type:square}.reveal ul ul ul{list-style-type:circle}.reveal ul ul,.reveal ul ol,.reveal ol ol,.reveal ol ul{display:block;margin-left:40px}.reveal p{margin-bottom:10px;line-height:1.2em}.reveal q,.reveal blockquote{quotes:none}.reveal blockquote{display:block;position:relative;width:70%;margin:5px auto;padding:5px;font-style:italic;background:rgba(255,255,255,.05);box-shadow:0 0 2px rgba(0,0,0,.2)}.reveal blockquote p:first-child,.reveal blockquote p:last-child{display:inline-block}.reveal q{font-style:italic}.reveal pre{display:block;position:relative;width:90%;margin:15px auto;text-align:left;font-size:.55em;font-family:monospace;line-height:1.2em;word-wrap:break-word;box-shadow:0 0 6px rgba(0,0,0,.3)}.reveal code{font-family:monospace}.reveal pre code{padding:5px;overflow:auto;max-height:400px;word-wrap:normal}.reveal table th,.reveal table td{text-align:left;padding-right:.3em}.reveal table th{text-shadow:#fff 1px 1px 2px}.reveal sup{vertical-align:super}.reveal sub{vertical-align:sub}.reveal small{display:inline-block;font-size:.6em;line-height:1.2em;vertical-align:top}.reveal small *{vertical-align:top}.reveal .controls{display:none;position:fixed;width:110px;height:110px;z-index:30;right:10px;bottom:10px}.reveal .controls div{position:absolute;opacity:.05;width:0;height:0;border:12px solid transparent;-moz-transform:scale(.9999);-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}.reveal .controls div.enabled{opacity:.7;cursor:pointer}.reveal .controls div.enabled:active{margin-top:1px}.reveal .controls div.navigate-left{top:42px;border-right-width:22px;border-right-color:#eee}.reveal .controls div.navigate-left.fragmented{opacity:.3}.reveal .controls div.navigate-right{left:74px;top:42px;border-left-width:22px;border-left-color:#eee}.reveal .controls div.navigate-right.fragmented{opacity:.3}.reveal .controls div.navigate-up{left:42px;border-bottom-width:22px;border-bottom-color:#eee}.reveal .controls div.navigate-up.fragmented{opacity:.3}.reveal .controls div.navigate-down{left:42px;top:74px;border-top-width:22px;border-top-color:#eee}.reveal .controls div.navigate-down.fragmented{opacity:.3}.reveal .progress{position:fixed;display:none;height:3px;width:100%;bottom:0;left:0;z-index:10}.reveal .progress:after{content:'';display:'block';position:absolute;height:20px;width:100%;top:-20px}.reveal .progress span{display:block;height:100%;width:0;-webkit-transition:width 800ms cubic-bezier(0.26,.86,.44,.985);-moz-transition:width 800ms cubic-bezier(0.26,.86,.44,.985);-ms-transition:width 800ms cubic-bezier(0.26,.86,.44,.985);-o-transition:width 800ms cubic-bezier(0.26,.86,.44,.985);transition:width 800ms cubic-bezier(0.26,.86,.44,.985)}.reveal .roll{display:inline-block;line-height:1.2;overflow:hidden;vertical-align:top;-webkit-perspective:400px;-moz-perspective:400px;-ms-perspective:400px;perspective:400px;-webkit-perspective-origin:50% 50%;-moz-perspective-origin:50% 50%;-ms-perspective-origin:50% 50%;perspective-origin:50% 50%}.reveal .roll:hover{background:0;text-shadow:none}.reveal .roll span{display:block;position:relative;padding:0 2px;pointer-events:none;-webkit-transition:all 400ms ease;-moz-transition:all 400ms ease;-ms-transition:all 400ms ease;transition:all 400ms ease;-webkit-transform-origin:50% 0;-moz-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden}.reveal .roll:hover span{background:rgba(0,0,0,.5);-webkit-transform:translate3d(0px,0,-45px) rotateX(90deg);-moz-transform:translate3d(0px,0,-45px) rotateX(90deg);-ms-transform:translate3d(0px,0,-45px) rotateX(90deg);transform:translate3d(0px,0,-45px) rotateX(90deg)}.reveal .roll span:after{content:attr(data-title);display:block;position:absolute;left:0;top:0;padding:0 2px;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-origin:50% 0;-moz-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform:translate3d(0px,110%,0) rotateX(-90deg);-moz-transform:translate3d(0px,110%,0) rotateX(-90deg);-ms-transform:translate3d(0px,110%,0) rotateX(-90deg);transform:translate3d(0px,110%,0) rotateX(-90deg)}.reveal{position:relative;width:100%;height:100%}.reveal .slides{position:absolute;width:100%;height:100%;left:50%;top:50%;overflow:visible;z-index:1;text-align:center;-webkit-transition:-webkit-perspective .4s ease;-moz-transition:-moz-perspective .4s ease;-ms-transition:-ms-perspective .4s ease;-o-transition:-o-perspective .4s ease;transition:perspective .4s ease;-webkit-perspective:600px;-moz-perspective:600px;-ms-perspective:600px;perspective:600px;-webkit-perspective-origin:0 -100px;-moz-perspective-origin:0 -100px;-ms-perspective-origin:0 -100px;perspective-origin:0 -100px}.reveal .slides>section,.reveal .slides>section>section{display:none;position:absolute;width:100%;padding:20px 0;z-index:10;line-height:1.2em;font-weight:400;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transition:-webkit-transform-origin 800ms cubic-bezier(0.26,.86,.44,.985),-webkit-transform 800ms cubic-bezier(0.26,.86,.44,.985),visibility 800ms cubic-bezier(0.26,.86,.44,.985),opacity 800ms cubic-bezier(0.26,.86,.44,.985);-moz-transition:-moz-transform-origin 800ms cubic-bezier(0.26,.86,.44,.985),-moz-transform 800ms cubic-bezier(0.26,.86,.44,.985),visibility 800ms cubic-bezier(0.26,.86,.44,.985),opacity 800ms cubic-bezier(0.26,.86,.44,.985);-ms-transition:-ms-transform-origin 800ms cubic-bezier(0.26,.86,.44,.985),-ms-transform 800ms cubic-bezier(0.26,.86,.44,.985),visibility 800ms cubic-bezier(0.26,.86,.44,.985),opacity 800ms cubic-bezier(0.26,.86,.44,.985);-o-transition:-o-transform-origin 800ms cubic-bezier(0.26,.86,.44,.985),-o-transform 800ms cubic-bezier(0.26,.86,.44,.985),visibility 800ms cubic-bezier(0.26,.86,.44,.985),opacity 800ms cubic-bezier(0.26,.86,.44,.985);transition:transform-origin 800ms cubic-bezier(0.26,.86,.44,.985),transform 800ms cubic-bezier(0.26,.86,.44,.985),visibility 800ms cubic-bezier(0.26,.86,.44,.985),opacity 800ms cubic-bezier(0.26,.86,.44,.985)}.reveal[data-transition-speed=fast] .slides section{-webkit-transition-duration:400ms;-moz-transition-duration:400ms;-ms-transition-duration:400ms;transition-duration:400ms}.reveal[data-transition-speed=slow] .slides section{-webkit-transition-duration:1200ms;-moz-transition-duration:1200ms;-ms-transition-duration:1200ms;transition-duration:1200ms}.reveal .slides section[data-transition-speed=fast]{-webkit-transition-duration:400ms;-moz-transition-duration:400ms;-ms-transition-duration:400ms;transition-duration:400ms}.reveal .slides section[data-transition-speed=slow]{-webkit-transition-duration:1200ms;-moz-transition-duration:1200ms;-ms-transition-duration:1200ms;transition-duration:1200ms}.reveal .slides>section{left:-50%;top:-50%}.reveal .slides>section.stack{padding-top:0;padding-bottom:0}.reveal .slides>section.present,.reveal .slides>section>section.present{display:block;z-index:11;opacity:1}.reveal.center,.reveal.center .slides,.reveal.center .slides section{min-height:auto!important}.reveal .slides>section[data-transition=default].past,.reveal .slides>section.past{display:block;opacity:0;-webkit-transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0);transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0)}.reveal .slides>section[data-transition=default].future,.reveal .slides>section.future{display:block;opacity:0;-webkit-transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0);transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0)}.reveal .slides>section>section[data-transition=default].past,.reveal .slides>section>section.past{display:block;opacity:0;-webkit-transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0);-moz-transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0);-ms-transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0);transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0)}.reveal .slides>section>section[data-transition=default].future,.reveal .slides>section>section.future{display:block;opacity:0;-webkit-transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0);-moz-transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0);-ms-transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0);transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0)}.reveal .slides>section[data-transition=concave].past,.reveal.concave .slides>section.past{-webkit-transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0);-ms-transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0);transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0)}.reveal .slides>section[data-transition=concave].future,.reveal.concave .slides>section.future{-webkit-transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0);transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0)}.reveal .slides>section>section[data-transition=concave].past,.reveal.concave .slides>section>section.past{-webkit-transform:translate3d(0,-80%,0) rotateX(-70deg) translate3d(0,-80%,0);-moz-transform:translate3d(0,-80%,0) rotateX(-70deg) translate3d(0,-80%,0);-ms-transform:translate3d(0,-80%,0) rotateX(-70deg) translate3d(0,-80%,0);transform:translate3d(0,-80%,0) rotateX(-70deg) translate3d(0,-80%,0)}.reveal .slides>section>section[data-transition=concave].future,.reveal.concave .slides>section>section.future{-webkit-transform:translate3d(0,80%,0) rotateX(70deg) translate3d(0,80%,0);-moz-transform:translate3d(0,80%,0) rotateX(70deg) translate3d(0,80%,0);-ms-transform:translate3d(0,80%,0) rotateX(70deg) translate3d(0,80%,0);transform:translate3d(0,80%,0) rotateX(70deg) translate3d(0,80%,0)}.reveal .slides>section[data-transition=zoom].past,.reveal.zoom .slides>section.past{opacity:0;visibility:hidden;-webkit-transform:scale(16);-moz-transform:scale(16);-ms-transform:scale(16);-o-transform:scale(16);transform:scale(16)}.reveal .slides>section[data-transition=zoom].future,.reveal.zoom .slides>section.future{opacity:0;visibility:hidden;-webkit-transform:scale(0.2);-moz-transform:scale(0.2);-ms-transform:scale(0.2);-o-transform:scale(0.2);transform:scale(0.2)}.reveal .slides>section>section[data-transition=zoom].past,.reveal.zoom .slides>section>section.past{-webkit-transform:translate(0,-150%);-moz-transform:translate(0,-150%);-ms-transform:translate(0,-150%);-o-transform:translate(0,-150%);transform:translate(0,-150%)}.reveal .slides>section>section[data-transition=zoom].future,.reveal.zoom .slides>section>section.future{-webkit-transform:translate(0,150%);-moz-transform:translate(0,150%);-ms-transform:translate(0,150%);-o-transform:translate(0,150%);transform:translate(0,150%)}.reveal.linear section{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}.reveal .slides>section[data-transition=linear].past,.reveal.linear .slides>section.past{-webkit-transform:translate(-150%,0);-moz-transform:translate(-150%,0);-ms-transform:translate(-150%,0);-o-transform:translate(-150%,0);transform:translate(-150%,0)}.reveal .slides>section[data-transition=linear].future,.reveal.linear .slides>section.future{-webkit-transform:translate(150%,0);-moz-transform:translate(150%,0);-ms-transform:translate(150%,0);-o-transform:translate(150%,0);transform:translate(150%,0)}.reveal .slides>section>section[data-transition=linear].past,.reveal.linear .slides>section>section.past{-webkit-transform:translate(0,-150%);-moz-transform:translate(0,-150%);-ms-transform:translate(0,-150%);-o-transform:translate(0,-150%);transform:translate(0,-150%)}.reveal .slides>section>section[data-transition=linear].future,.reveal.linear .slides>section>section.future{-webkit-transform:translate(0,150%);-moz-transform:translate(0,150%);-ms-transform:translate(0,150%);-o-transform:translate(0,150%);transform:translate(0,150%)}.reveal.cube .slides{-webkit-perspective:1300px;-moz-perspective:1300px;-ms-perspective:1300px;perspective:1300px}.reveal.cube .slides section{padding:30px;min-height:700px;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.reveal.center.cube .slides section{min-height:auto}.reveal.cube .slides section:not(.stack):before{content:'';position:absolute;display:block;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.1);border-radius:4px;-webkit-transform:translateZ(-20px);-moz-transform:translateZ(-20px);-ms-transform:translateZ(-20px);-o-transform:translateZ(-20px);transform:translateZ(-20px)}.reveal.cube .slides section:not(.stack):after{content:'';position:absolute;display:block;width:90%;height:30px;left:5%;bottom:0;background:0;z-index:1;border-radius:4px;box-shadow:0 95px 25px rgba(0,0,0,.2);-webkit-transform:translateZ(-90px) rotateX(65deg);-moz-transform:translateZ(-90px) rotateX(65deg);-ms-transform:translateZ(-90px) rotateX(65deg);-o-transform:translateZ(-90px) rotateX(65deg);transform:translateZ(-90px) rotateX(65deg)}.reveal.cube .slides>section.stack{padding:0;background:0}.reveal.cube .slides>section.past{-webkit-transform-origin:100% 0;-moz-transform-origin:100% 0;-ms-transform-origin:100% 0;transform-origin:100% 0;-webkit-transform:translate3d(-100%,0,0) rotateY(-90deg);-moz-transform:translate3d(-100%,0,0) rotateY(-90deg);-ms-transform:translate3d(-100%,0,0) rotateY(-90deg);transform:translate3d(-100%,0,0) rotateY(-90deg)}.reveal.cube .slides>section.future{-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-transform:translate3d(100%,0,0) rotateY(90deg);-moz-transform:translate3d(100%,0,0) rotateY(90deg);-ms-transform:translate3d(100%,0,0) rotateY(90deg);transform:translate3d(100%,0,0) rotateY(90deg)}.reveal.cube .slides>section>section.past{-webkit-transform-origin:0 100%;-moz-transform-origin:0 100%;-ms-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:translate3d(0,-100%,0) rotateX(90deg);-moz-transform:translate3d(0,-100%,0) rotateX(90deg);-ms-transform:translate3d(0,-100%,0) rotateX(90deg);transform:translate3d(0,-100%,0) rotateX(90deg)}.reveal.cube .slides>section>section.future{-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-transform:translate3d(0,100%,0) rotateX(-90deg);-moz-transform:translate3d(0,100%,0) rotateX(-90deg);-ms-transform:translate3d(0,100%,0) rotateX(-90deg);transform:translate3d(0,100%,0) rotateX(-90deg)}.reveal.page .slides{-webkit-perspective-origin:0 50%;-moz-perspective-origin:0 50%;-ms-perspective-origin:0 50%;perspective-origin:0 50%;-webkit-perspective:3000px;-moz-perspective:3000px;-ms-perspective:3000px;perspective:3000px}.reveal.page .slides section{padding:30px;min-height:700px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.reveal.page .slides section.past{z-index:12}.reveal.page .slides section:not(.stack):before{content:'';position:absolute;display:block;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.1);-webkit-transform:translateZ(-20px);-moz-transform:translateZ(-20px);-ms-transform:translateZ(-20px);-o-transform:translateZ(-20px);transform:translateZ(-20px)}.reveal.page .slides section:not(.stack):after{content:'';position:absolute;display:block;width:90%;height:30px;left:5%;bottom:0;background:0;z-index:1;border-radius:4px;box-shadow:0 95px 25px rgba(0,0,0,.2);-webkit-transform:translateZ(-90px) rotateX(65deg)}.reveal.page .slides>section.stack{padding:0;background:0}.reveal.page .slides>section.past{-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-transform:translate3d(-40%,0,0) rotateY(-80deg);-moz-transform:translate3d(-40%,0,0) rotateY(-80deg);-ms-transform:translate3d(-40%,0,0) rotateY(-80deg);transform:translate3d(-40%,0,0) rotateY(-80deg)}.reveal.page .slides>section.future{-webkit-transform-origin:100% 0;-moz-transform-origin:100% 0;-ms-transform-origin:100% 0;transform-origin:100% 0;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.reveal.page .slides>section>section.past{-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;-webkit-transform:translate3d(0,-40%,0) rotateX(80deg);-moz-transform:translate3d(0,-40%,0) rotateX(80deg);-ms-transform:translate3d(0,-40%,0) rotateX(80deg);transform:translate3d(0,-40%,0) rotateX(80deg)}.reveal.page .slides>section>section.future{-webkit-transform-origin:0 100%;-moz-transform-origin:0 100%;-ms-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.reveal .slides section[data-transition=fade],.reveal.fade .slides section,.reveal.fade .slides>section>section{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-ms-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}.reveal.fade.overview .slides section,.reveal.fade.overview .slides>section>section,.reveal.fade.exit-overview .slides section,.reveal.fade.exit-overview .slides>section>section{-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none}.reveal .slides section[data-transition=none],.reveal.none .slides section{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none;-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none}.reveal.overview .slides{-webkit-perspective-origin:0 0;-moz-perspective-origin:0 0;-ms-perspective-origin:0 0;perspective-origin:0 0;-webkit-perspective:700px;-moz-perspective:700px;-ms-perspective:700px;perspective:700px}.reveal.overview .slides section{height:600px;overflow:hidden;opacity:1!important;visibility:visible!important;cursor:pointer;background:rgba(0,0,0,.1)}.reveal.overview .slides section .fragment{opacity:1}.reveal.overview .slides section:after,.reveal.overview .slides section:before{display:none!important}.reveal.overview .slides section>section{opacity:1;cursor:pointer}.reveal.overview .slides section:hover{background:rgba(0,0,0,.3)}.reveal.overview .slides section.present{background:rgba(0,0,0,.3)}.reveal.overview .slides>section.stack{padding:0;background:0;overflow:visible}.reveal .pause-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;visibility:hidden;opacity:0;z-index:100;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease}.reveal.paused .pause-overlay{visibility:visible;opacity:1}.no-transforms{overflow-y:auto}.no-transforms .reveal .slides{position:relative;width:80%;height:auto!important;top:0;left:50%;margin:0;text-align:center}.no-transforms .reveal .controls,.no-transforms .reveal .progress{display:none!important}.no-transforms .reveal .slides section{display:block!important;opacity:1!important;position:relative!important;height:auto;min-height:auto;top:0;left:-50%;margin:70px 0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none}.no-transforms .reveal .slides section section{left:0}.no-transition{-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none}.reveal .state-background{position:absolute;width:100%;height:100%;background:rgba(0,0,0,0);-webkit-transition:background 800ms ease;-moz-transition:background 800ms ease;-ms-transition:background 800ms ease;-o-transition:background 800ms ease;transition:background 800ms ease}.alert .reveal .state-background{background:rgba(200,50,30,.6)}.soothe .reveal .state-background{background:rgba(50,200,90,.4)}.blackout .reveal .state-background{background:rgba(0,0,0,.6)}.whiteout .reveal .state-background{background:rgba(255,255,255,.6)}.cobalt .reveal .state-background{background:rgba(22,152,213,.6)}.mint .reveal .state-background{background:rgba(22,213,75,.6)}.submerge .reveal .state-background{background:rgba(12,25,77,.6)}.lila .reveal .state-background{background:rgba(180,50,140,.6)}.sunset .reveal .state-background{background:rgba(255,122,0,.6)}.reveal.rtl .slides,.reveal.rtl .slides h1,.reveal.rtl .slides h2,.reveal.rtl .slides h3,.reveal.rtl .slides h4,.reveal.rtl .slides h5,.reveal.rtl .slides h6{direction:rtl;font-family:sans-serif}.reveal.rtl pre,.reveal.rtl code{direction:ltr}.reveal.rtl ol,.reveal.rtl ul{text-align:right}.reveal.rtl .progress span{float:right}.reveal aside.notes{display:none}.zoomed .reveal *,.zoomed .reveal :before,.zoomed .reveal :after{-webkit-transform:none!important;-moz-transform:none!important;-ms-transform:none!important;transform:none!important;-webkit-backface-visibility:visible!important;-moz-backface-visibility:visible!important;-ms-backface-visibility:visible!important;backface-visibility:visible!important}.zoomed .reveal .progress,.zoomed .reveal .controls{opacity:0}.zoomed .reveal .roll span{background:0}.zoomed .reveal .roll span:after{visibility:hidden}
+</style>
+  <style type="text/css"  >
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: white;
+  background-color: white; }
+
+.reveal {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: black; }
+
+::selection {
+  color: white;
+  background: rgba(0, 0, 0, 0.99);
+  text-shadow: none; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: black;
+  font-family: "News Cycle", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-shadow: none; }
+
+.reveal h1 {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a:not(.image) {
+  color: darkblue;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:not(.image):hover {
+  color: #0000f1;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #00003f; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 4px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: darkblue;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: darkblue; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: darkblue; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: darkblue; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: darkblue; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #0000f1; }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #0000f1; }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #0000f1; }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #0000f1; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: darkblue;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+</style>
+ 
+  <style type="text/css">
+
+.reveal h1 { 
+  font-size: 2.5em; 
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 { 
+   margin-bottom: .6em;    
+}
+
+.reveal p,
+.reveal table {
+   margin-bottom: 1em; 
+}
+
+.reveal li {
+   margin-bottom: .4em;
+}
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+	margin-top: .4em;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal small {
+	font-size: 0.85em;
+}
+
+.reveal pre {   
+  margin-top: 0;
+  max-width: 95%;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+  margin-bottom: 1em; 
+}
+
+.reveal pre code {
+  display: block; padding: 0.5em;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  background-color: white;
+  overflow: visible;
+  max-height: none;
+  word-wrap: normal;
+}
+
+.reveal code {
+  overflow: visible;
+  max-height: none;
+}
+
+.reveal code.r {
+  background-color: #F8F8F8;
+}
+
+.reveal code.cpp {
+  background-color: #F8F8F8;
+}
+
+.reveal section del {
+   text-decoration: none;
+   color: #AAB1BA;
+}
+
+.reveal section img {
+   border: none;
+}
+
+.reveal section .fieldError {
+  margin-bottom: 25px;
+}
+
+.reveal section .fieldError span {
+  color: red;
+}
+
+.prompt .reveal .state-background {
+   background: #C6D7DC;
+}
+
+.quiz-multichoice .reveal .state-background {
+  background: rgba(254,220,179,1);
+}
+
+.quiz-multichoice .reveal ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.quiz-multichoice .reveal li {
+  margin-top: 15px;
+}
+
+.quiz-multichoice .reveal .quizFeedback {
+  margin-bottom: 30px;
+}
+
+.quiz-multichoice .reveal .quizFeedback img {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  float: left;
+  margin-top: -15px;
+}
+
+.quiz-multichoice .reveal .quizFeedback span {
+  font-size: 1.4em; 
+  margin-left: 12px;
+}
+
+.section .reveal .state-background {
+   background: #96A2B6;
+}
+
+.section .reveal h1,
+.section .reveal h2,
+.section .reveal p {
+   color: white;
+   margin-top: 50px;
+}
+
+.sub-section .reveal .state-background {
+  background: #E7E8EA
+}
+
+.sub-section .reveal h2,
+.sub-section .reveal p {
+  color: #63717B;
+  margin-top: 50px;
+}
+
+.reveal strong {
+  color: #25679E;
+}
+
+.reveal .controls {
+  right: -20px;
+  bottom: 5px;
+}
+
+.reveal .controls div.navigate-left {
+  top: 75px;
+}
+
+.reveal .controls div.navigate-right {
+  left: 54px;
+  top: 75px;
+}
+
+
+.reveal .controls div.navigate-up {
+  display: none;
+}
+
+.reveal .controls div.navigate-down {
+  display: none;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+ 
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #25679E;
+}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #25679E;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #25679E;
+}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #25679E;
+}
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #267EC8;
+}
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #267EC8;
+}
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #267EC8;
+}
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #267EC8;
+}
+
+.reveal .progress span {
+  background: #25679E;
+}
+
+.reveal .slides>section,
+.reveal .slides>section>section {
+  padding: 0px 0px;
+}
+
+
+.reveal table {
+  border-width: 1px;
+  border-spacing: 2px;
+  border-style: dotted;
+  border-color: gray;
+  border-collapse: collapse;
+  font-size: 0.7em;
+}
+
+.reveal table th {
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 25px;
+  font-weight: bold;
+  border-style: dotted;
+  border-color: gray;
+}
+
+.reveal table td {
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 25px;
+  border-style: dotted;
+  border-color: gray;
+}
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 5px auto;
+  padding: 5px;
+
+  font-style: normal;
+  background: #C6D7DC;
+  border: 1px solid #C6D7DC;
+  box-shadow: none;
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: block;
+}
+
+.reveal blockquote:before {
+  content: '';
+}
+
+.reveal blockquote:after {
+    content: '';
+}
+
+
+.reveal ol,
+.reveal ul {
+	margin: 0 0 .5em 1.2em;
+}
+
+.reveal .slides section {
+   height: 100%;
+}
+
+.reveal .slides section .slideContent h2 {
+   font-size: 1.3em;
+   font-weight: bold;
+}
+
+.reveal .slides section .slideContent h3 {
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+.reveal .slides section .column {
+   position: fixed;
+   width: 48%;
+   top: 2.5em;
+   bottom: 0;
+}
+
+.reveal .slides section .column1 {
+   left: 0;
+}
+
+.reveal .slides section .column2 {
+   right: 0;
+}
+
+.reveal .slides section .column img {
+   max-width: 95%;
+   max-height: 95%;
+   height: auto;
+}
+
+.reveal .slides section .mediaOnly {
+   position: absolute;
+   width: 100%;
+   top: 2.5em;
+   bottom: 0;
+}
+
+.reveal .slides section .mediaOnly img {
+   max-width: 90%;
+   max-height: 90%;
+   height: auto;
+}
+
+.reveal .slides section .mediaInline img {
+   max-width: 90%;
+   max-height: 50%;
+   width: auto;
+}
+
+.reveal .slides section .mediaOnly video {
+   height: 90%;
+   width: 90%;
+}
+
+.reveal .slides section .mediaInline video {
+   height: 50%;
+   width: 90%;
+}
+
+.reveal .slides section .noTitle {
+   top: 0;
+}
+
+
+
+
+
+.reveal {
+  font-family: "Lato", sans-serif;
+}
+  
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "News Cycle", Impact, sans-serif;
+}
+
+
+
+  </style>
+  
+  <!-- reveal print css -->
+  <style type="text/css" media="print" >
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+/* SECTION 1: Set default width, margin, float, and
+   background. This prevents elements from extending
+   beyond the edge of the printed page, and prevents
+   unnecessary background images from printing */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	font-size: 18pt;
+	width: auto;
+	height: auto;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+@page {
+	size: letter landscape;
+	margin: 0;
+}
+
+/* SECTION 2: Remove any elements not needed in print.
+   This would include navigation, ads, sidebars, etc. */
+.nestedarrow,
+.controls,
+.reveal .progress,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+/* SECTION 3: Set body font face, size, and color.
+   Consider using a serif font for readability. */
+body, p, td, li, div {
+	font-size: 18pt;
+}
+
+/* SECTION 4: Set heading font face, sizes, and color.
+   Diffrentiate your headings from your body text.
+   Perhaps use a large sans-serif for distinction. */
+h1,h2,h3,h4,h5,h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+/* SECTION 5: Make hyperlinks more usable.
+   Ensure links are underlined, and consider appending
+   the URL to the end of the link for usability. */
+a:link,
+a:visited {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/* SECTION 6: more reveal.js specific additions by @skypanther */
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding: auto;
+
+	overflow: visible;
+	display: block;
+
+	text-align: center;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+.reveal .slides section {
+
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: static !important;
+	width: 100% !important;
+	height: auto !important;
+	min-height: initial !important;
+	display: block !important;
+	overflow: visible !important;
+
+	left: 0 !important;
+	top: 0 !important;
+	margin-left: 0px !important;
+	margin-top: 50px !important;
+	padding: 20px 0px !important;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+.reveal section.stack {
+	margin: 0px !important;
+	padding: 0px !important;
+	page-break-after: avoid !important;
+}
+.reveal section .fragment {
+	opacity: 1 !important;
+	visibility: visible !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+.reveal img {
+	box-shadow: none;
+}
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+.reveal small a {
+	font-size: 16pt !important;
+}
+
+</style>
+  
+<!-- Styles for R syntax highlighter -->
+<style type="text/css">
+   pre .operator,
+   pre .paren {
+     color: rgb(104, 118, 135)
+   }
+
+   pre .literal {
+     color: rgb(88, 72, 246)
+   }
+
+   pre .number {
+     color: rgb(0, 0, 205);
+   }
+
+   pre .comment {
+     color: rgb(76, 136, 107);
+   }
+
+   pre .keyword {
+     color: rgb(0, 0, 255);
+   }
+
+   pre .identifier {
+     color: rgb(0, 0, 0);
+   }
+
+   pre .string {
+     color: rgb(3, 106, 7);
+   }
+</style>
+
+<!-- R syntax highlighter -->
+<script type="text/javascript">
+var hljs=new function(){function m(p){return p.replace(/&/gm,"&amp;").replace(/</gm,"&lt;")}function f(r,q,p){return RegExp(q,"m"+(r.cI?"i":"")+(p?"g":""))}function b(r){for(var p=0;p<r.childNodes.length;p++){var q=r.childNodes[p];if(q.nodeName=="CODE"){return q}if(!(q.nodeType==3&&q.nodeValue.match(/\s+/))){break}}}function h(t,s){var p="";for(var r=0;r<t.childNodes.length;r++){if(t.childNodes[r].nodeType==3){var q=t.childNodes[r].nodeValue;if(s){q=q.replace(/\n/g,"")}p+=q}else{if(t.childNodes[r].nodeName=="BR"){p+="\n"}else{p+=h(t.childNodes[r])}}}if(/MSIE [678]/.test(navigator.userAgent)){p=p.replace(/\r/g,"\n")}return p}function a(s){var r=s.className.split(/\s+/);r=r.concat(s.parentNode.className.split(/\s+/));for(var q=0;q<r.length;q++){var p=r[q].replace(/^language-/,"");if(e[p]){return p}}}function c(q){var p=[];(function(s,t){for(var r=0;r<s.childNodes.length;r++){if(s.childNodes[r].nodeType==3){t+=s.childNodes[r].nodeValue.length}else{if(s.childNodes[r].nodeName=="BR"){t+=1}else{if(s.childNodes[r].nodeType==1){p.push({event:"start",offset:t,node:s.childNodes[r]});t=arguments.callee(s.childNodes[r],t);p.push({event:"stop",offset:t,node:s.childNodes[r]})}}}}return t})(q,0);return p}function k(y,w,x){var q=0;var z="";var s=[];function u(){if(y.length&&w.length){if(y[0].offset!=w[0].offset){return(y[0].offset<w[0].offset)?y:w}else{return w[0].event=="start"?y:w}}else{return y.length?y:w}}function t(D){var A="<"+D.nodeName.toLowerCase();for(var B=0;B<D.attributes.length;B++){var C=D.attributes[B];A+=" "+C.nodeName.toLowerCase();if(C.value!==undefined&&C.value!==false&&C.value!==null){A+='="'+m(C.value)+'"'}}return A+">"}while(y.length||w.length){var v=u().splice(0,1)[0];z+=m(x.substr(q,v.offset-q));q=v.offset;if(v.event=="start"){z+=t(v.node);s.push(v.node)}else{if(v.event=="stop"){var p,r=s.length;do{r--;p=s[r];z+=("</"+p.nodeName.toLowerCase()+">")}while(p!=v.node);s.splice(r,1);while(r<s.length){z+=t(s[r]);r++}}}}return z+m(x.substr(q))}function j(){function q(x,y,v){if(x.compiled){return}var u;var s=[];if(x.k){x.lR=f(y,x.l||hljs.IR,true);for(var w in x.k){if(!x.k.hasOwnProperty(w)){continue}if(x.k[w] instanceof Object){u=x.k[w]}else{u=x.k;w="keyword"}for(var r in u){if(!u.hasOwnProperty(r)){continue}x.k[r]=[w,u[r]];s.push(r)}}}if(!v){if(x.bWK){x.b="\\b("+s.join("|")+")\\s"}x.bR=f(y,x.b?x.b:"\\B|\\b");if(!x.e&&!x.eW){x.e="\\B|\\b"}if(x.e){x.eR=f(y,x.e)}}if(x.i){x.iR=f(y,x.i)}if(x.r===undefined){x.r=1}if(!x.c){x.c=[]}x.compiled=true;for(var t=0;t<x.c.length;t++){if(x.c[t]=="self"){x.c[t]=x}q(x.c[t],y,false)}if(x.starts){q(x.starts,y,false)}}for(var p in e){if(!e.hasOwnProperty(p)){continue}q(e[p].dM,e[p],true)}}function d(B,C){if(!j.called){j();j.called=true}function q(r,M){for(var L=0;L<M.c.length;L++){if((M.c[L].bR.exec(r)||[null])[0]==r){return M.c[L]}}}function v(L,r){if(D[L].e&&D[L].eR.test(r)){return 1}if(D[L].eW){var M=v(L-1,r);return M?M+1:0}return 0}function w(r,L){return L.i&&L.iR.test(r)}function K(N,O){var M=[];for(var L=0;L<N.c.length;L++){M.push(N.c[L].b)}var r=D.length-1;do{if(D[r].e){M.push(D[r].e)}r--}while(D[r+1].eW);if(N.i){M.push(N.i)}return f(O,M.join("|"),true)}function p(M,L){var N=D[D.length-1];if(!N.t){N.t=K(N,E)}N.t.lastIndex=L;var r=N.t.exec(M);return r?[M.substr(L,r.index-L),r[0],false]:[M.substr(L),"",true]}function z(N,r){var L=E.cI?r[0].toLowerCase():r[0];var M=N.k[L];if(M&&M instanceof Array){return M}return false}function F(L,P){L=m(L);if(!P.k){return L}var r="";var O=0;P.lR.lastIndex=0;var M=P.lR.exec(L);while(M){r+=L.substr(O,M.index-O);var N=z(P,M);if(N){x+=N[1];r+='<span class="'+N[0]+'">'+M[0]+"</span>"}else{r+=M[0]}O=P.lR.lastIndex;M=P.lR.exec(L)}return r+L.substr(O,L.length-O)}function J(L,M){if(M.sL&&e[M.sL]){var r=d(M.sL,L);x+=r.keyword_count;return r.value}else{return F(L,M)}}function I(M,r){var L=M.cN?'<span class="'+M.cN+'">':"";if(M.rB){y+=L;M.buffer=""}else{if(M.eB){y+=m(r)+L;M.buffer=""}else{y+=L;M.buffer=r}}D.push(M);A+=M.r}function G(N,M,Q){var R=D[D.length-1];if(Q){y+=J(R.buffer+N,R);return false}var P=q(M,R);if(P){y+=J(R.buffer+N,R);I(P,M);return P.rB}var L=v(D.length-1,M);if(L){var O=R.cN?"</span>":"";if(R.rE){y+=J(R.buffer+N,R)+O}else{if(R.eE){y+=J(R.buffer+N,R)+O+m(M)}else{y+=J(R.buffer+N+M,R)+O}}while(L>1){O=D[D.length-2].cN?"</span>":"";y+=O;L--;D.length--}var r=D[D.length-1];D.length--;D[D.length-1].buffer="";if(r.starts){I(r.starts,"")}return R.rE}if(w(M,R)){throw"Illegal"}}var E=e[B];var D=[E.dM];var A=0;var x=0;var y="";try{var s,u=0;E.dM.buffer="";do{s=p(C,u);var t=G(s[0],s[1],s[2]);u+=s[0].length;if(!t){u+=s[1].length}}while(!s[2]);if(D.length>1){throw"Illegal"}return{r:A,keyword_count:x,value:y}}catch(H){if(H=="Illegal"){return{r:0,keyword_count:0,value:m(C)}}else{throw H}}}function g(t){var p={keyword_count:0,r:0,value:m(t)};var r=p;for(var q in e){if(!e.hasOwnProperty(q)){continue}var s=d(q,t);s.language=q;if(s.keyword_count+s.r>r.keyword_count+r.r){r=s}if(s.keyword_count+s.r>p.keyword_count+p.r){r=p;p=s}}if(r.language){p.second_best=r}return p}function i(r,q,p){if(q){r=r.replace(/^((<[^>]+>|\t)+)/gm,function(t,w,v,u){return w.replace(/\t/g,q)})}if(p){r=r.replace(/\n/g,"<br>")}return r}function n(t,w,r){var x=h(t,r);var v=a(t);var y,s;if(v){y=d(v,x)}else{return}var q=c(t);if(q.length){s=document.createElement("pre");s.innerHTML=y.value;y.value=k(q,c(s),x)}y.value=i(y.value,w,r);var u=t.className;if(!u.match("(\\s|^)(language-)?"+v+"(\\s|$)")){u=u?(u+" "+v):v}if(/MSIE [678]/.test(navigator.userAgent)&&t.tagName=="CODE"&&t.parentNode.tagName=="PRE"){s=t.parentNode;var p=document.createElement("div");p.innerHTML="<pre><code>"+y.value+"</code></pre>";t=p.firstChild.firstChild;p.firstChild.cN=s.cN;s.parentNode.replaceChild(p.firstChild,s)}else{t.innerHTML=y.value}t.className=u;t.result={language:v,kw:y.keyword_count,re:y.r};if(y.second_best){t.second_best={language:y.second_best.language,kw:y.second_best.keyword_count,re:y.second_best.r}}}function o(){if(o.called){return}o.called=true;var r=document.getElementsByTagName("pre");for(var p=0;p<r.length;p++){var q=b(r[p]);if(q){n(q,hljs.tabReplace)}}}function l(){if(window.addEventListener){window.addEventListener("DOMContentLoaded",o,false);window.addEventListener("load",o,false)}else{if(window.attachEvent){window.attachEvent("onload",o)}else{window.onload=o}}}var e={};this.LANGUAGES=e;this.highlight=d;this.highlightAuto=g;this.fixMarkup=i;this.highlightBlock=n;this.initHighlighting=o;this.initHighlightingOnLoad=l;this.IR="[a-zA-Z][a-zA-Z0-9_]*";this.UIR="[a-zA-Z_][a-zA-Z0-9_]*";this.NR="\\b\\d+(\\.\\d+)?";this.CNR="\\b(0[xX][a-fA-F0-9]+|(\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)";this.BNR="\\b(0b[01]+)";this.RSR="!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|\\.|-|-=|/|/=|:|;|<|<<|<<=|<=|=|==|===|>|>=|>>|>>=|>>>|>>>=|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~";this.ER="(?![\\s\\S])";this.BE={b:"\\\\.",r:0};this.ASM={cN:"string",b:"'",e:"'",i:"\\n",c:[this.BE],r:0};this.QSM={cN:"string",b:'"',e:'"',i:"\\n",c:[this.BE],r:0};this.CLCM={cN:"comment",b:"//",e:"$"};this.CBLCLM={cN:"comment",b:"/\\*",e:"\\*/"};this.HCM={cN:"comment",b:"#",e:"$"};this.NM={cN:"number",b:this.NR,r:0};this.CNM={cN:"number",b:this.CNR,r:0};this.BNM={cN:"number",b:this.BNR,r:0};this.inherit=function(r,s){var p={};for(var q in r){p[q]=r[q]}if(s){for(var q in s){p[q]=s[q]}}return p}}();hljs.LANGUAGES.cpp=function(){var a={keyword:{"false":1,"int":1,"float":1,"while":1,"private":1,"char":1,"catch":1,"export":1,virtual:1,operator:2,sizeof:2,dynamic_cast:2,typedef:2,const_cast:2,"const":1,struct:1,"for":1,static_cast:2,union:1,namespace:1,unsigned:1,"long":1,"throw":1,"volatile":2,"static":1,"protected":1,bool:1,template:1,mutable:1,"if":1,"public":1,friend:2,"do":1,"return":1,"goto":1,auto:1,"void":2,"enum":1,"else":1,"break":1,"new":1,extern:1,using:1,"true":1,"class":1,asm:1,"case":1,typeid:1,"short":1,reinterpret_cast:2,"default":1,"double":1,register:1,explicit:1,signed:1,typename:1,"try":1,"this":1,"switch":1,"continue":1,wchar_t:1,inline:1,"delete":1,alignof:1,char16_t:1,char32_t:1,constexpr:1,decltype:1,noexcept:1,nullptr:1,static_assert:1,thread_local:1,restrict:1,_Bool:1,complex:1},built_in:{std:1,string:1,cin:1,cout:1,cerr:1,clog:1,stringstream:1,istringstream:1,ostringstream:1,auto_ptr:1,deque:1,list:1,queue:1,stack:1,vector:1,map:1,set:1,bitset:1,multiset:1,multimap:1,unordered_set:1,unordered_map:1,unordered_multiset:1,unordered_multimap:1,array:1,shared_ptr:1}};return{dM:{k:a,i:"</",c:[hljs.CLCM,hljs.CBLCLM,hljs.QSM,{cN:"string",b:"'\\\\?.",e:"'",i:"."},{cN:"number",b:"\\b(\\d+(\\.\\d*)?|\\.\\d+)(u|U|l|L|ul|UL|f|F)"},hljs.CNM,{cN:"preprocessor",b:"#",e:"$"},{cN:"stl_container",b:"\\b(deque|list|queue|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array)\\s*<",e:">",k:a,r:10,c:["self"]}]}}}();hljs.LANGUAGES.r={dM:{c:[hljs.HCM,{cN:"number",b:"\\b0[xX][0-9a-fA-F]+[Li]?\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\b\\d+(?:[eE][+\\-]?\\d*)?L\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\b\\d+\\.(?!\\d)(?:i\\b)?",e:hljs.IMMEDIATE_RE,r:1},{cN:"number",b:"\\b\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d*)?i?\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"number",b:"\\.\\d+(?:[eE][+\\-]?\\d*)?i?\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"keyword",b:"(?:tryCatch|library|setGeneric|setGroupGeneric)\\b",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\.\\.\\.",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\.\\.\\d+(?![\\w.])",e:hljs.IMMEDIATE_RE,r:10},{cN:"keyword",b:"\\b(?:function)",e:hljs.IMMEDIATE_RE,r:2},{cN:"keyword",b:"(?:if|in|break|next|repeat|else|for|return|switch|while|try|stop|warning|require|attach|detach|source|setMethod|setClass)\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"literal",b:"(?:NA|NA_integer_|NA_real_|NA_character_|NA_complex_)\\b",e:hljs.IMMEDIATE_RE,r:10},{cN:"literal",b:"(?:NULL|TRUE|FALSE|T|F|Inf|NaN)\\b",e:hljs.IMMEDIATE_RE,r:1},{cN:"identifier",b:"[a-zA-Z.][a-zA-Z0-9._]*\\b",e:hljs.IMMEDIATE_RE,r:0},{cN:"operator",b:"<\\-(?!\\s*\\d)",e:hljs.IMMEDIATE_RE,r:2},{cN:"operator",b:"\\->|<\\-",e:hljs.IMMEDIATE_RE,r:1},{cN:"operator",b:"%%|~",e:hljs.IMMEDIATE_RE},{cN:"operator",b:">=|<=|==|!=|\\|\\||&&|=|\\+|\\-|\\*|/|\\^|>|<|!|&|\\||\\$|:",e:hljs.IMMEDIATE_RE,r:0},{cN:"operator",b:"%",e:"%",i:"\\n",r:1},{cN:"identifier",b:"`",e:"`",r:0},{cN:"string",b:'"',e:'"',c:[hljs.BE],r:0},{cN:"string",b:"'",e:"'",c:[hljs.BE],r:0},{cN:"paren",b:"[[({\\])}]",e:hljs.IMMEDIATE_RE,r:0}]}};
+hljs.initHighlightingOnLoad();
+</script>
+
+   
+  
+
+
+
+
+
+</head>
+
+<body>
+  <div class="reveal">
+  <div class="slides">
+
+<section data-state="section" data-transition="linear" data-transition-speed="default">
+<h1>Population No. of The Cities in USA</h1><p>Roy Wang<br/>26th,May 2016</p>
+
+<div class="slideContent" >
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>About the project</h3>
+<div class="slideContent" >
+<p>This is an R project that  created for the Developing Data Products Class of Coursera&#39;s Data Science Specialization.</p>
+
+<ul>
+<li>Purpose of the project</li>
+<li>Framework and data source</li>
+<li>Demo </li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Purpose the project</h3>
+<div class="slideContent" >
+<ul>
+<li><p>Display the population no. of each city in USA.</p></li>
+<li><p>Visualization of the populations on map of USA.</p></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Framework and data source</h3>
+<div class="slideContent" >
+<ul>
+<li>This project developed as a  Shiny APP</li>
+<li>The population data of each city came from the package <a href="https://cran.r-project.org/web/packages/maps/index.html">maps</a></li>
+<li>Use ggplot2 to plot the map and lable the population of each city</li>
+<li>Example of list the cities of USA on a dropdown list</li>
+</ul>
+
+<pre><code class="r">library(shiny)
+library(maps)
+# Getting data from the us.cities 
+data(us.cities)
+
+
+# The UI of the application. On the left of the page will be dropdown list of the cities in USA
+shinyUI(
+  navbarPage(&quot;Populations Map Of The City In USA&quot;,
+             tabPanel(&quot;Map&quot;,
+
+  sidebarPanel(    
+    selectInput(&#39;city&#39;, &#39;Cities of USA&#39;, choices=us.cities$name)
+    ))
+))
+</code></pre>
+
+<p>&lt;!&ndash;html_preserve&ndash;&gt;<nav class="navbar navbar-default navbar-static-top" role="navigation"></p>
+
+<div class="container">
+<div class="navbar-header">
+<span class="navbar-brand">Populations Map Of The City In USA</span>
+</div>
+
+<ul class="nav navbar-nav">
+<li class="active">
+<a href="#tab-4251-1" data-toggle="tab" data-value="Map">Map</a>
+</li>
+</ul>
+
+<p></div>
+</nav></p>
+
+<div class="container-fluid">
+<div class="tab-content">
+<div class="tab-pane active" data-value="Map" id="tab-4251-1">
+<div class="col-sm-4">
+<form class="well">
+<div class="form-group shiny-input-container">
+<label class="control-label" for="city">Cities of USA</label>
+<div>
+<select id="city"><option value="Abilene TX" selected>Abilene TX</option>
+<option value="Akron OH">Akron OH</option>
+<option value="Alameda CA">Alameda CA</option>
+<option value="Albany GA">Albany GA</option>
+<option value="Albany NY">Albany NY</option>
+<option value="Albany OR">Albany OR</option>
+<option value="Albuquerque NM">Albuquerque NM</option>
+<option value="Alexandria LA">Alexandria LA</option>
+<option value="Alexandria VA">Alexandria VA</option>
+<option value="Alhambra CA">Alhambra CA</option>
+<option value="Aliso Viejo CA">Aliso Viejo CA</option>
+<option value="Allen TX">Allen TX</option>
+<option value="Allentown PA">Allentown PA</option>
+<option value="Aloha OR">Aloha OR</option>
+<option value="Altadena CA">Altadena CA</option>
+<option value="Altamonte Springs FL">Altamonte Springs FL</option>
+<option value="Altoona PA">Altoona PA</option>
+<option value="Amarillo TX">Amarillo TX</option>
+<option value="Ames IA">Ames IA</option>
+<option value="Anaheim CA">Anaheim CA</option>
+<option value="Anchorage AK">Anchorage AK</option>
+<option value="Anderson IN">Anderson IN</option>
+<option value="Andover MA">Andover MA</option>
+<option value="Ann Arbor MI">Ann Arbor MI</option>
+<option value="Annandale VA">Annandale VA</option>
+<option value="Annapolis MD">Annapolis MD</option>
+<option value="Antioch CA">Antioch CA</option>
+<option value="Apple Valley CA">Apple Valley CA</option>
+<option value="Apple Valley MN">Apple Valley MN</option>
+<option value="Appleton WI">Appleton WI</option>
+<option value="Arcadia CA">Arcadia CA</option>
+<option value="Arden-Arcade CA">Arden-Arcade CA</option>
+<option value="Arlington Heights IL">Arlington Heights IL</option>
+<option value="Arlington MA">Arlington MA</option>
+<option value="Arlington TX">Arlington TX</option>
+<option value="Arlington VA">Arlington VA</option>
+<option value="Arvada CO">Arvada CO</option>
+<option value="Asheville NC">Asheville NC</option>
+<option value="Aspen Hill MD">Aspen Hill MD</option>
+<option value="Athens-Clarke GA">Athens-Clarke GA</option>
+<option value="Atlanta GA">Atlanta GA</option>
+<option value="Atlantic City NJ">Atlantic City NJ</option>
+<option value="Attleboro MA">Attleboro MA</option>
+<option value="Auburn AL">Auburn AL</option>
+<option value="Auburn WA">Auburn WA</option>
+<option value="Augusta ME">Augusta ME</option>
+<option value="Augusta-Richmond GA">Augusta-Richmond GA</option>
+<option value="Aurora CO">Aurora CO</option>
+<option value="Aurora IL">Aurora IL</option>
+<option value="Austin TX">Austin TX</option>
+<option value="Avondale AZ">Avondale AZ</option>
+<option value="Azusa CA">Azusa CA</option>
+<option value="Bakersfield CA">Bakersfield CA</option>
+<option value="Baldwin Park CA">Baldwin Park CA</option>
+<option value="Baltimore MD">Baltimore MD</option>
+<option value="Barnstable Town MA">Barnstable Town MA</option>
+<option value="Bartlett TN">Bartlett TN</option>
+<option value="Baton Rouge LA">Baton Rouge LA</option>
+<option value="Battle Creek MI">Battle Creek MI</option>
+<option value="Bayonne NJ">Bayonne NJ</option>
+<option value="Baytown TX">Baytown TX</option>
+<option value="Beaumont TX">Beaumont TX</option>
+<option value="Beavercreek OH">Beavercreek OH</option>
+<option value="Beaverton OR">Beaverton OR</option>
+<option value="Bedford TX">Bedford TX</option>
+<option value="Bel Air South MD">Bel Air South MD</option>
+<option value="Bell Gardens CA">Bell Gardens CA</option>
+<option value="Belleville IL">Belleville IL</option>
+<option value="Bellevue NE">Bellevue NE</option>
+<option value="Bellevue WA">Bellevue WA</option>
+<option value="Bellflower CA">Bellflower CA</option>
+<option value="Bellingham WA">Bellingham WA</option>
+<option value="Bend OR">Bend OR</option>
+<option value="Berkeley CA">Berkeley CA</option>
+<option value="Berwyn IL">Berwyn IL</option>
+<option value="Bethesda MD">Bethesda MD</option>
+<option value="Bethlehem PA">Bethlehem PA</option>
+<option value="Beverly MA">Beverly MA</option>
+<option value="Billerica MA">Billerica MA</option>
+<option value="Billings MT">Billings MT</option>
+<option value="Biloxi MS">Biloxi MS</option>
+<option value="Binghamton NY">Binghamton NY</option>
+<option value="Birmingham AL">Birmingham AL</option>
+<option value="Bismarck ND">Bismarck ND</option>
+<option value="Blacksburg VA">Blacksburg VA</option>
+<option value="Blaine MN">Blaine MN</option>
+<option value="Bloomfield NJ">Bloomfield NJ</option>
+<option value="Bloomfield Township MI">Bloomfield Township MI</option>
+<option value="Bloomington IL">Bloomington IL</option>
+<option value="Bloomington IN">Bloomington IN</option>
+<option value="Bloomington MN">Bloomington MN</option>
+<option value="Blue Springs MO">Blue Springs MO</option>
+<option value="Boca Raton FL">Boca Raton FL</option>
+<option value="Boise ID">Boise ID</option>
+<option value="Bolingbrook IL">Bolingbrook IL</option>
+<option value="Bonita Springs FL">Bonita Springs FL</option>
+<option value="Bossier City LA">Bossier City LA</option>
+<option value="Boston MA">Boston MA</option>
+<option value="Boulder CO">Boulder CO</option>
+<option value="Bountiful UT">Bountiful UT</option>
+<option value="Bourne MA">Bourne MA</option>
+<option value="Bowie MD">Bowie MD</option>
+<option value="Bowling Green KY">Bowling Green KY</option>
+<option value="Boynton Beach FL">Boynton Beach FL</option>
+<option value="Bradenton FL">Bradenton FL</option>
+<option value="Brandon FL">Brandon FL</option>
+<option value="Brea CA">Brea CA</option>
+<option value="Bremerton WA">Bremerton WA</option>
+<option value="Brentwood CA">Brentwood CA</option>
+<option value="Brentwood NY">Brentwood NY</option>
+<option value="Brewster MA">Brewster MA</option>
+<option value="Brick NJ">Brick NJ</option>
+<option value="Bridgeport CT">Bridgeport CT</option>
+<option value="Bridgewater MA">Bridgewater MA</option>
+<option value="Bristol CT">Bristol CT</option>
+<option value="Brockton MA">Brockton MA</option>
+<option value="Broken Arrow OK">Broken Arrow OK</option>
+<option value="Brookfield WI">Brookfield WI</option>
+<option value="Brookline MA">Brookline MA</option>
+<option value="Brooklyn Park MN">Brooklyn Park MN</option>
+<option value="Broomfield CO">Broomfield CO</option>
+<option value="Brownsville TX">Brownsville TX</option>
+<option value="Bryan TX">Bryan TX</option>
+<option value="Buena Park CA">Buena Park CA</option>
+<option value="Buffalo Grove IL">Buffalo Grove IL</option>
+<option value="Buffalo NY">Buffalo NY</option>
+<option value="Burbank CA">Burbank CA</option>
+<option value="Burke VA">Burke VA</option>
+<option value="Burlington NC">Burlington NC</option>
+<option value="Burnsville MN">Burnsville MN</option>
+<option value="Camarillo CA">Camarillo CA</option>
+<option value="Cambridge MA">Cambridge MA</option>
+<option value="Camden NJ">Camden NJ</option>
+<option value="Canton MI">Canton MI</option>
+<option value="Canton OH">Canton OH</option>
+<option value="Cape Coral FL">Cape Coral FL</option>
+<option value="Carlsbad CA">Carlsbad CA</option>
+<option value="Carmel IN">Carmel IN</option>
+<option value="Carmichael CA">Carmichael CA</option>
+<option value="Carol City FL">Carol City FL</option>
+<option value="Carol Stream IL">Carol Stream IL</option>
+<option value="Carrollton TX">Carrollton TX</option>
+<option value="Carson CA">Carson CA</option>
+<option value="Carson City NV">Carson City NV</option>
+<option value="Cary NC">Cary NC</option>
+<option value="Casas Adobes AZ">Casas Adobes AZ</option>
+<option value="Casper WY">Casper WY</option>
+<option value="Castle Rock CO">Castle Rock CO</option>
+<option value="Castro Valley CA">Castro Valley CA</option>
+<option value="Catalina Foothills AZ">Catalina Foothills AZ</option>
+<option value="Cathedral City CA">Cathedral City CA</option>
+<option value="Catonsville MD">Catonsville MD</option>
+<option value="Cedar Hill TX">Cedar Hill TX</option>
+<option value="Cedar Park TX">Cedar Park TX</option>
+<option value="Cedar Rapids IA">Cedar Rapids IA</option>
+<option value="Centennial CO">Centennial CO</option>
+<option value="Centreville VA">Centreville VA</option>
+<option value="Ceres CA">Ceres CA</option>
+<option value="Cerritos CA">Cerritos CA</option>
+<option value="Champaign IL">Champaign IL</option>
+<option value="Chandler AZ">Chandler AZ</option>
+<option value="Chantilly VA">Chantilly VA</option>
+<option value="Chapel Hill NC">Chapel Hill NC</option>
+<option value="Charleston SC">Charleston SC</option>
+<option value="Charleston WV">Charleston WV</option>
+<option value="Charlotte NC">Charlotte NC</option>
+<option value="Chattanooga TN">Chattanooga TN</option>
+<option value="Cheektowaga NY">Cheektowaga NY</option>
+<option value="Cherry Hill PA">Cherry Hill PA</option>
+<option value="Chesapeake VA">Chesapeake VA</option>
+<option value="Chesterfield MO">Chesterfield MO</option>
+<option value="Cheyenne WY">Cheyenne WY</option>
+<option value="Chicago IL">Chicago IL</option>
+<option value="Chico CA">Chico CA</option>
+<option value="Chicopee MA">Chicopee MA</option>
+<option value="Chino CA">Chino CA</option>
+<option value="Chino Hills CA">Chino Hills CA</option>
+<option value="Chula Vista CA">Chula Vista CA</option>
+<option value="Cicero IL">Cicero IL</option>
+<option value="Cincinnati OH">Cincinnati OH</option>
+<option value="Citrus Heights CA">Citrus Heights CA</option>
+<option value="Clarksville TN">Clarksville TN</option>
+<option value="Clearwater FL">Clearwater FL</option>
+<option value="Cleveland Heights OH">Cleveland Heights OH</option>
+<option value="Cleveland OH">Cleveland OH</option>
+<option value="Clifton NJ">Clifton NJ</option>
+<option value="Clinton MI">Clinton MI</option>
+<option value="Clovis CA">Clovis CA</option>
+<option value="Coconut Creek FL">Coconut Creek FL</option>
+<option value="Coeur d&#39;Alene ID">Coeur d'Alene ID</option>
+<option value="College Station TX">College Station TX</option>
+<option value="Colorado Springs CO">Colorado Springs CO</option>
+<option value="Colton CA">Colton CA</option>
+<option value="Columbia MD">Columbia MD</option>
+<option value="Columbia MO">Columbia MO</option>
+<option value="Columbia SC">Columbia SC</option>
+<option value="Columbus GA">Columbus GA</option>
+<option value="Columbus IN">Columbus IN</option>
+<option value="Columbus OH">Columbus OH</option>
+<option value="Compton CA">Compton CA</option>
+<option value="Concord CA">Concord CA</option>
+<option value="Concord NC">Concord NC</option>
+<option value="Concord NH">Concord NH</option>
+<option value="Conroe TX">Conroe TX</option>
+<option value="Conway AR">Conway AR</option>
+<option value="Coon Rapids MN">Coon Rapids MN</option>
+<option value="Coppell TX">Coppell TX</option>
+<option value="Coral Gables FL">Coral Gables FL</option>
+<option value="Coral Springs FL">Coral Springs FL</option>
+<option value="Corona CA">Corona CA</option>
+<option value="Corpus Christi TX">Corpus Christi TX</option>
+<option value="Corvallis OR">Corvallis OR</option>
+<option value="Costa Mesa CA">Costa Mesa CA</option>
+<option value="Council Bluffs IA">Council Bluffs IA</option>
+<option value="Country Club FL">Country Club FL</option>
+<option value="Covina CA">Covina CA</option>
+<option value="Covington KY">Covington KY</option>
+<option value="Cranston RI">Cranston RI</option>
+<option value="Crystal Lake IL">Crystal Lake IL</option>
+<option value="Culver City CA">Culver City CA</option>
+<option value="Cupertino CA">Cupertino CA</option>
+<option value="Cuyahoga Falls OH">Cuyahoga Falls OH</option>
+<option value="Cypress CA">Cypress CA</option>
+<option value="Dale City VA">Dale City VA</option>
+<option value="Dallas TX">Dallas TX</option>
+<option value="Daly City CA">Daly City CA</option>
+<option value="Danbury CT">Danbury CT</option>
+<option value="Danville CA">Danville CA</option>
+<option value="Danville VA">Danville VA</option>
+<option value="Davenport IA">Davenport IA</option>
+<option value="Davie FL">Davie FL</option>
+<option value="Davis CA">Davis CA</option>
+<option value="Dayton OH">Dayton OH</option>
+<option value="Daytona Beach FL">Daytona Beach FL</option>
+<option value="DeKalb IL">DeKalb IL</option>
+<option value="DeSoto TX">DeSoto TX</option>
+<option value="Dearborn Heights MI">Dearborn Heights MI</option>
+<option value="Dearborn MI">Dearborn MI</option>
+<option value="Decatur AL">Decatur AL</option>
+<option value="Decatur IL">Decatur IL</option>
+<option value="Deerfield Beach FL">Deerfield Beach FL</option>
+<option value="Delano CA">Delano CA</option>
+<option value="Delray Beach FL">Delray Beach FL</option>
+<option value="Deltona FL">Deltona FL</option>
+<option value="Dennis MA">Dennis MA</option>
+<option value="Denton TX">Denton TX</option>
+<option value="Denver CO">Denver CO</option>
+<option value="Des Moines IA">Des Moines IA</option>
+<option value="Des Plaines IL">Des Plaines IL</option>
+<option value="Detroit MI">Detroit MI</option>
+<option value="Diamond Bar CA">Diamond Bar CA</option>
+<option value="Dothan AL">Dothan AL</option>
+<option value="Dover DE">Dover DE</option>
+<option value="Downers Grove IL">Downers Grove IL</option>
+<option value="Downey CA">Downey CA</option>
+<option value="Dublin CA">Dublin CA</option>
+<option value="Dubuque IA">Dubuque IA</option>
+<option value="Duluth MN">Duluth MN</option>
+<option value="Dundalk MD">Dundalk MD</option>
+<option value="Durham NC">Durham NC</option>
+<option value="Duxbury MA">Duxbury MA</option>
+<option value="Eagan MN">Eagan MN</option>
+<option value="East Brunswick NJ">East Brunswick NJ</option>
+<option value="East Hartford CT">East Hartford CT</option>
+<option value="East Lake FL">East Lake FL</option>
+<option value="East Lansing MI">East Lansing MI</option>
+<option value="East Los Angeles CA">East Los Angeles CA</option>
+<option value="East Orange NJ">East Orange NJ</option>
+<option value="East Providence RI">East Providence RI</option>
+<option value="Eau Claire WI">Eau Claire WI</option>
+<option value="Eden Prairie MN">Eden Prairie MN</option>
+<option value="Edina MN">Edina MN</option>
+<option value="Edinburg TX">Edinburg TX</option>
+<option value="Edison NJ">Edison NJ</option>
+<option value="Edmond OK">Edmond OK</option>
+<option value="Edmonds WA">Edmonds WA</option>
+<option value="Egypt Lake-Leto FL">Egypt Lake-Leto FL</option>
+<option value="El Cajon CA">El Cajon CA</option>
+<option value="El Mirage AZ">El Mirage AZ</option>
+<option value="El Monte CA">El Monte CA</option>
+<option value="El Paso TX">El Paso TX</option>
+<option value="Eldersburg MD">Eldersburg MD</option>
+<option value="Elgin IL">Elgin IL</option>
+<option value="Elizabeth NJ">Elizabeth NJ</option>
+<option value="Elk Grove CA">Elk Grove CA</option>
+<option value="Elkhart IN">Elkhart IN</option>
+<option value="Ellicott City MD">Ellicott City MD</option>
+<option value="Elmhurst IL">Elmhurst IL</option>
+<option value="Elyria OH">Elyria OH</option>
+<option value="Encinitas CA">Encinitas CA</option>
+<option value="Enid OK">Enid OK</option>
+<option value="Erie PA">Erie PA</option>
+<option value="Escondido CA">Escondido CA</option>
+<option value="Euclid OH">Euclid OH</option>
+<option value="Eugene OR">Eugene OR</option>
+<option value="Euless TX">Euless TX</option>
+<option value="Evanston IL">Evanston IL</option>
+<option value="Evansville IN">Evansville IN</option>
+<option value="Everett WA">Everett WA</option>
+<option value="Fairfield CA">Fairfield CA</option>
+<option value="Fairfield CT">Fairfield CT</option>
+<option value="Fairfield OH">Fairfield OH</option>
+<option value="Fall River MA">Fall River MA</option>
+<option value="Falmouth MA">Falmouth MA</option>
+<option value="Fargo ND">Fargo ND</option>
+<option value="Farmington Hills MI">Farmington Hills MI</option>
+<option value="Farmington NM">Farmington NM</option>
+<option value="Fayetteville AR">Fayetteville AR</option>
+<option value="Fayetteville NC">Fayetteville NC</option>
+<option value="Federal Way WA">Federal Way WA</option>
+<option value="Findlay OH">Findlay OH</option>
+<option value="Fishers IN">Fishers IN</option>
+<option value="Fitchburg MA">Fitchburg MA</option>
+<option value="Flagstaff AZ">Flagstaff AZ</option>
+<option value="Flint MI">Flint MI</option>
+<option value="Florence-Graham CA">Florence-Graham CA</option>
+<option value="Florissant MO">Florissant MO</option>
+<option value="Flower Mound TX">Flower Mound TX</option>
+<option value="Folsom CA">Folsom CA</option>
+<option value="Fond du Lac WI">Fond du Lac WI</option>
+<option value="Fontana CA">Fontana CA</option>
+<option value="Fort Collins CO">Fort Collins CO</option>
+<option value="Fort Lauderdale FL">Fort Lauderdale FL</option>
+<option value="Fort Myers FL">Fort Myers FL</option>
+<option value="Fort Smith AR">Fort Smith AR</option>
+<option value="Fort Wayne IN">Fort Wayne IN</option>
+<option value="Fort Worth TX">Fort Worth TX</option>
+<option value="Fountain Valley CA">Fountain Valley CA</option>
+<option value="Fountainbleau FL">Fountainbleau FL</option>
+<option value="Framingham MA">Framingham MA</option>
+<option value="Franconia VA">Franconia VA</option>
+<option value="Frankfort KY">Frankfort KY</option>
+<option value="Franklin TN">Franklin TN</option>
+<option value="Frederick MD">Frederick MD</option>
+<option value="Freeport NY">Freeport NY</option>
+<option value="Fremont CA">Fremont CA</option>
+<option value="Fresno CA">Fresno CA</option>
+<option value="Frisco TX">Frisco TX</option>
+<option value="Fullerton CA">Fullerton CA</option>
+<option value="Gainesville FL">Gainesville FL</option>
+<option value="Gaithersburg MD">Gaithersburg MD</option>
+<option value="Galveston TX">Galveston TX</option>
+<option value="Garden Grove CA">Garden Grove CA</option>
+<option value="Gardena CA">Gardena CA</option>
+<option value="Garland TX">Garland TX</option>
+<option value="Gary IN">Gary IN</option>
+<option value="Gastonia NC">Gastonia NC</option>
+<option value="Georgetown TX">Georgetown TX</option>
+<option value="Germantown MD">Germantown MD</option>
+<option value="Gilbert AZ">Gilbert AZ</option>
+<option value="Gilroy CA">Gilroy CA</option>
+<option value="Glen Burnie MD">Glen Burnie MD</option>
+<option value="Glendale AZ">Glendale AZ</option>
+<option value="Glendale CA">Glendale CA</option>
+<option value="Glendora CA">Glendora CA</option>
+<option value="Glenview IL">Glenview IL</option>
+<option value="Goodyear AZ">Goodyear AZ</option>
+<option value="Grand Forks ND">Grand Forks ND</option>
+<option value="Grand Island NE">Grand Island NE</option>
+<option value="Grand Junction CO">Grand Junction CO</option>
+<option value="Grand Prairie TX">Grand Prairie TX</option>
+<option value="Grand Rapids MI">Grand Rapids MI</option>
+<option value="Grapevine TX">Grapevine TX</option>
+<option value="Great Falls MT">Great Falls MT</option>
+<option value="Greater Carrollwood FL">Greater Carrollwood FL</option>
+<option value="Greeley CO">Greeley CO</option>
+<option value="Green Bay WI">Green Bay WI</option>
+<option value="Greensboro NC">Greensboro NC</option>
+<option value="Greenville NC">Greenville NC</option>
+<option value="Greenville SC">Greenville SC</option>
+<option value="Greenwich CT">Greenwich CT</option>
+<option value="Greenwood IN">Greenwood IN</option>
+<option value="Gresham OR">Gresham OR</option>
+<option value="Gulfport MS">Gulfport MS</option>
+<option value="Hacienda Heights CA">Hacienda Heights CA</option>
+<option value="Hackensack NJ">Hackensack NJ</option>
+<option value="Haltom City TX">Haltom City TX</option>
+<option value="Hamden CT">Hamden CT</option>
+<option value="Hamilton NJ">Hamilton NJ</option>
+<option value="Hamilton OH">Hamilton OH</option>
+<option value="Hammond IN">Hammond IN</option>
+<option value="Hampton VA">Hampton VA</option>
+<option value="Hanford CA">Hanford CA</option>
+<option value="Harlingen TX">Harlingen TX</option>
+<option value="Harrisburg PA">Harrisburg PA</option>
+<option value="Harrisonburg VA">Harrisonburg VA</option>
+<option value="Hartford CT">Hartford CT</option>
+<option value="Hattiesburg MS">Hattiesburg MS</option>
+<option value="Haverhill MA">Haverhill MA</option>
+<option value="Hawthorne CA">Hawthorne CA</option>
+<option value="Hayward CA">Hayward CA</option>
+<option value="Helena MT">Helena MT</option>
+<option value="Hemet CA">Hemet CA</option>
+<option value="Hempstead NY">Hempstead NY</option>
+<option value="Henderson NV">Henderson NV</option>
+<option value="Hendersonville TN">Hendersonville TN</option>
+<option value="Hesperia CA">Hesperia CA</option>
+<option value="Hialeah FL">Hialeah FL</option>
+<option value="Hickory NC">Hickory NC</option>
+<option value="Hicksville NY">Hicksville NY</option>
+<option value="High Point NC">High Point NC</option>
+<option value="Highland CA">Highland CA</option>
+<option value="Highlands Ranch CO">Highlands Ranch CO</option>
+<option value="Hillsboro OR">Hillsboro OR</option>
+<option value="Hilo HI">Hilo HI</option>
+<option value="Hingham MS">Hingham MS</option>
+<option value="Hoboken NJ">Hoboken NJ</option>
+<option value="Hoffman Estates IL">Hoffman Estates IL</option>
+<option value="Hollywood FL">Hollywood FL</option>
+<option value="Holyoke MA">Holyoke MA</option>
+<option value="Honolulu HI">Honolulu HI</option>
+<option value="Hoover AL">Hoover AL</option>
+<option value="Houston TX">Houston TX</option>
+<option value="Huntersville NC">Huntersville NC</option>
+<option value="Huntington Beach CA">Huntington Beach CA</option>
+<option value="Huntington Park CA">Huntington Park CA</option>
+<option value="Huntington WV">Huntington WV</option>
+<option value="Huntsville AL">Huntsville AL</option>
+<option value="Hutchinson KS">Hutchinson KS</option>
+<option value="Idaho Falls ID">Idaho Falls ID</option>
+<option value="Independence MO">Independence MO</option>
+<option value="Indianapolis IN">Indianapolis IN</option>
+<option value="Indio CA">Indio CA</option>
+<option value="Inglewood CA">Inglewood CA</option>
+<option value="Iowa City IA">Iowa City IA</option>
+<option value="Irondequoit NY">Irondequoit NY</option>
+<option value="Irvine CA">Irvine CA</option>
+<option value="Irving TX">Irving TX</option>
+<option value="Irvington NJ">Irvington NJ</option>
+<option value="Jackson MS">Jackson MS</option>
+<option value="Jackson TN">Jackson TN</option>
+<option value="Jacksonville FL">Jacksonville FL</option>
+<option value="Jacksonville NC">Jacksonville NC</option>
+<option value="Janesville WI">Janesville WI</option>
+<option value="Jefferson City MO">Jefferson City MO</option>
+<option value="Jersey City NJ">Jersey City NJ</option>
+<option value="Johnson City TN">Johnson City TN</option>
+<option value="Joliet IL">Joliet IL</option>
+<option value="Jonesboro AR">Jonesboro AR</option>
+<option value="Joplin MO">Joplin MO</option>
+<option value="Juneau AK">Juneau AK</option>
+<option value="Jupiter FL">Jupiter FL</option>
+<option value="Kalamazoo MI">Kalamazoo MI</option>
+<option value="Kansas City KS">Kansas City KS</option>
+<option value="Kansas City MO">Kansas City MO</option>
+<option value="Keller TX">Keller TX</option>
+<option value="Kendale Lakes FL">Kendale Lakes FL</option>
+<option value="Kendall FL">Kendall FL</option>
+<option value="Kenner LA">Kenner LA</option>
+<option value="Kennewick WA">Kennewick WA</option>
+<option value="Kenosha WI">Kenosha WI</option>
+<option value="Kent WA">Kent WA</option>
+<option value="Kentwood MI">Kentwood MI</option>
+<option value="Kettering OH">Kettering OH</option>
+<option value="Killeen TX">Killeen TX</option>
+<option value="Kingsport TN">Kingsport TN</option>
+<option value="Kirkland WA">Kirkland WA</option>
+<option value="Kissimmee FL">Kissimmee FL</option>
+<option value="Knoxville TN">Knoxville TN</option>
+<option value="Kokomo IN">Kokomo IN</option>
+<option value="La Crosse WI">La Crosse WI</option>
+<option value="La Habra CA">La Habra CA</option>
+<option value="La Mesa CA">La Mesa CA</option>
+<option value="La Mirada CA">La Mirada CA</option>
+<option value="La Puente CA">La Puente CA</option>
+<option value="La Quinta CA">La Quinta CA</option>
+<option value="Lafayette IN">Lafayette IN</option>
+<option value="Lafayette LA">Lafayette LA</option>
+<option value="Laguna CA">Laguna CA</option>
+<option value="Laguna Niguel CA">Laguna Niguel CA</option>
+<option value="Lake Charles LA">Lake Charles LA</option>
+<option value="Lake Elsinore CA">Lake Elsinore CA</option>
+<option value="Lake Forest CA">Lake Forest CA</option>
+<option value="Lake Havasu City AZ">Lake Havasu City AZ</option>
+<option value="Lake Magdalene FL">Lake Magdalene FL</option>
+<option value="Lakeland FL">Lakeland FL</option>
+<option value="Lakeville MN">Lakeville MN</option>
+<option value="Lakewood CA">Lakewood CA</option>
+<option value="Lakewood CO">Lakewood CO</option>
+<option value="Lakewood NJ">Lakewood NJ</option>
+<option value="Lakewood OH">Lakewood OH</option>
+<option value="Lakewood WA">Lakewood WA</option>
+<option value="Lancaster CA">Lancaster CA</option>
+<option value="Lancaster PA">Lancaster PA</option>
+<option value="Lansing MI">Lansing MI</option>
+<option value="Laredo TX">Laredo TX</option>
+<option value="Largo FL">Largo FL</option>
+<option value="Las Cruces NM">Las Cruces NM</option>
+<option value="Las Vegas NV">Las Vegas NV</option>
+<option value="Lauderhill FL">Lauderhill FL</option>
+<option value="Lawrence IN">Lawrence IN</option>
+<option value="Lawrence KS">Lawrence KS</option>
+<option value="Lawrence MA">Lawrence MA</option>
+<option value="Lawton OK">Lawton OK</option>
+<option value="Layton UT">Layton UT</option>
+<option value="League City TX">League City TX</option>
+<option value="Lee&#39;s Summit MO">Lee&rsquo;s Summit MO</option>
+<option value="Lehigh Acres FL">Lehigh Acres FL</option>
+<option value="Lenexa KS">Lenexa KS</option>
+<option value="Leominster MA">Leominster MA</option>
+<option value="Levittown NY">Levittown NY</option>
+<option value="Levittown PA">Levittown PA</option>
+<option value="Lewisville TX">Lewisville TX</option>
+<option value="Lexington KY">Lexington KY</option>
+<option value="Lima OH">Lima OH</option>
+<option value="Lincoln CA">Lincoln CA</option>
+<option value="Lincoln NE">Lincoln NE</option>
+<option value="Linden NJ">Linden NJ</option>
+<option value="Little Rock AR">Little Rock AR</option>
+<option value="Littleton CO">Littleton CO</option>
+<option value="Livermore CA">Livermore CA</option>
+<option value="Livonia MI">Livonia MI</option>
+<option value="Lodi CA">Lodi CA</option>
+<option value="Logan UT">Logan UT</option>
+<option value="Lombard IL">Lombard IL</option>
+<option value="Lompoc CA">Lompoc CA</option>
+<option value="Long Beach CA">Long Beach CA</option>
+<option value="Longmont CO">Longmont CO</option>
+<option value="Longview TX">Longview TX</option>
+<option value="Lorain OH">Lorain OH</option>
+<option value="Los Angeles CA">Los Angeles CA</option>
+<option value="Louisville KY">Louisville KY</option>
+<option value="Loveland CO">Loveland CO</option>
+<option value="Lowell MA">Lowell MA</option>
+<option value="Lower Merion PA">Lower Merion PA</option>
+<option value="Lubbock TX">Lubbock TX</option>
+<option value="Lynchburg VA">Lynchburg VA</option>
+<option value="Lynn MA">Lynn MA</option>
+<option value="Lynwood CA">Lynwood CA</option>
+<option value="MacAllen TX">MacAllen TX</option>
+<option value="MacKinney TX">MacKinney TX</option>
+<option value="MacLean VA">MacLean VA</option>
+<option value="Macon GA">Macon GA</option>
+<option value="Madera CA">Madera CA</option>
+<option value="Madison AL">Madison AL</option>
+<option value="Madison WI">Madison WI</option>
+<option value="Malden MA">Malden MA</option>
+<option value="Manchester NH">Manchester NH</option>
+<option value="Manhattan KS">Manhattan KS</option>
+<option value="Mansfield OH">Mansfield OH</option>
+<option value="Manteca CA">Manteca CA</option>
+<option value="Maple Grove MN">Maple Grove MN</option>
+<option value="Margate FL">Margate FL</option>
+<option value="Marietta GA">Marietta GA</option>
+<option value="Marshfield MA">Marshfield MA</option>
+<option value="Medford MA">Medford MA</option>
+<option value="Medford OR">Medford OR</option>
+<option value="Melbourne FL">Melbourne FL</option>
+<option value="Memphis TN">Memphis TN</option>
+<option value="Mentor OH">Mentor OH</option>
+<option value="Merced CA">Merced CA</option>
+<option value="Meriden CT">Meriden CT</option>
+<option value="Meridian ID">Meridian ID</option>
+<option value="Mesa AZ">Mesa AZ</option>
+<option value="Mesquite TX">Mesquite TX</option>
+<option value="Metairie LA">Metairie LA</option>
+<option value="Methuen MA">Methuen MA</option>
+<option value="Miami Beach FL">Miami Beach FL</option>
+<option value="Miami FL">Miami FL</option>
+<option value="Middletown CT">Middletown CT</option>
+<option value="Middletown OH">Middletown OH</option>
+<option value="Midland MI">Midland MI</option>
+<option value="Midland TX">Midland TX</option>
+<option value="Midwest City OK">Midwest City OK</option>
+<option value="Milford CT">Milford CT</option>
+<option value="Milpitas CA">Milpitas CA</option>
+<option value="Milwaukee WI">Milwaukee WI</option>
+<option value="Minneapolis MN">Minneapolis MN</option>
+<option value="Minnetonka MN">Minnetonka MN</option>
+<option value="Miramar FL">Miramar FL</option>
+<option value="Mishawaka IN">Mishawaka IN</option>
+<option value="Mission TX">Mission TX</option>
+<option value="Mission Viejo CA">Mission Viejo CA</option>
+<option value="Missoula MT">Missoula MT</option>
+<option value="Missouri City TX">Missouri City TX</option>
+<option value="Mobile AL">Mobile AL</option>
+<option value="Modesto CA">Modesto CA</option>
+<option value="Moline IL">Moline IL</option>
+<option value="Monroe LA">Monroe LA</option>
+<option value="Montclair NJ">Montclair NJ</option>
+<option value="Montebello CA">Montebello CA</option>
+<option value="Monterey Park CA">Monterey Park CA</option>
+<option value="Montgomery AL">Montgomery AL</option>
+<option value="Montgomery Village MD">Montgomery Village MD</option>
+<option value="Montpelier VT">Montpelier VT</option>
+<option value="Moore OK">Moore OK</option>
+<option value="Moreno Valley CA">Moreno Valley CA</option>
+<option value="Mount Pleasant SC">Mount Pleasant SC</option>
+<option value="Mount Prospect IL">Mount Prospect IL</option>
+<option value="Mount Vernon NY">Mount Vernon NY</option>
+<option value="Mountain View CA">Mountain View CA</option>
+<option value="Muncie IN">Muncie IN</option>
+<option value="Murfreesboro TN">Murfreesboro TN</option>
+<option value="Murray UT">Murray UT</option>
+<option value="Murrieta CA">Murrieta CA</option>
+<option value="Muskegon MI">Muskegon MI</option>
+<option value="Nampa ID">Nampa ID</option>
+<option value="Napa CA">Napa CA</option>
+<option value="Naperville IL">Naperville IL</option>
+<option value="Nashua NH">Nashua NH</option>
+<option value="Nashville TN">Nashville TN</option>
+<option value="National City CA">National City CA</option>
+<option value="New Bedford MA">New Bedford MA</option>
+<option value="New Braunfels TX">New Braunfels TX</option>
+<option value="New Britain CT">New Britain CT</option>
+<option value="New Brunswick NJ">New Brunswick NJ</option>
+<option value="New Haven CT">New Haven CT</option>
+<option value="New Milford CT">New Milford CT</option>
+<option value="New Orleans LA">New Orleans LA</option>
+<option value="New Rochelle NY">New Rochelle NY</option>
+<option value="New York NY">New York NY</option>
+<option value="Newark CA">Newark CA</option>
+<option value="Newark NJ">Newark NJ</option>
+<option value="Newark OH">Newark OH</option>
+<option value="Newport Beach CA">Newport Beach CA</option>
+<option value="Newport News VA">Newport News VA</option>
+<option value="Newton MA">Newton MA</option>
+<option value="Niagara Falls NY">Niagara Falls NY</option>
+<option value="Norfolk VA">Norfolk VA</option>
+<option value="Normal IL">Normal IL</option>
+<option value="Norman OK">Norman OK</option>
+<option value="North Atlanta GA">North Atlanta GA</option>
+<option value="North Bergen NJ">North Bergen NJ</option>
+<option value="North Bethesda MD">North Bethesda MD</option>
+<option value="North Brunswick Township NJ">North Brunswick Township NJ</option>
+<option value="North Charleston SC">North Charleston SC</option>
+<option value="North Fort Myers FL">North Fort Myers FL</option>
+<option value="North Highlands CA">North Highlands CA</option>
+<option value="North Las Vegas NV">North Las Vegas NV</option>
+<option value="North Little Rock AR">North Little Rock AR</option>
+<option value="North Miami Beach FL">North Miami Beach FL</option>
+<option value="North Miami FL">North Miami FL</option>
+<option value="North Port FL">North Port FL</option>
+<option value="North Richland Hills TX">North Richland Hills TX</option>
+<option value="Norwalk CA">Norwalk CA</option>
+<option value="Norwalk CT">Norwalk CT</option>
+<option value="Novato CA">Novato CA</option>
+<option value="Novi MI">Novi MI</option>
+<option value="O&#39;Fallon MO">O'Fallon MO</option>
+<option value="Oak Lawn IL">Oak Lawn IL</option>
+<option value="Oak Park IL">Oak Park IL</option>
+<option value="Oakland CA">Oakland CA</option>
+<option value="Ocala FL">Ocala FL</option>
+<option value="Oceanside CA">Oceanside CA</option>
+<option value="Odessa TX">Odessa TX</option>
+<option value="Ogden UT">Ogden UT</option>
+<option value="Oklahoma City OK">Oklahoma City OK</option>
+<option value="Olathe KS">Olathe KS</option>
+<option value="Olympia WA">Olympia WA</option>
+<option value="Omaha NE">Omaha NE</option>
+<option value="Ontario CA">Ontario CA</option>
+<option value="Orange CA">Orange CA</option>
+<option value="Orem UT">Orem UT</option>
+<option value="Orland Park IL">Orland Park IL</option>
+<option value="Orlando FL">Orlando FL</option>
+<option value="Oshkosh WI">Oshkosh WI</option>
+<option value="Overland Park KS">Overland Park KS</option>
+<option value="Owensboro KY">Owensboro KY</option>
+<option value="Oxnard CA">Oxnard CA</option>
+<option value="Pahrump NV">Pahrump NV</option>
+<option value="Palatine IL">Palatine IL</option>
+<option value="Palm Bay FL">Palm Bay FL</option>
+<option value="Palm Beach Gardens FL">Palm Beach Gardens FL</option>
+<option value="Palm Coast FL">Palm Coast FL</option>
+<option value="Palm Desert CA">Palm Desert CA</option>
+<option value="Palm Harbor FL">Palm Harbor FL</option>
+<option value="Palm Springs CA">Palm Springs CA</option>
+<option value="Palmdale CA">Palmdale CA</option>
+<option value="Palo Alto CA">Palo Alto CA</option>
+<option value="Paradise NV">Paradise NV</option>
+<option value="Paramount CA">Paramount CA</option>
+<option value="Parker CO">Parker CO</option>
+<option value="Parkway-South Sacramento CA">Parkway-South Sacramento CA</option>
+<option value="Parma OH">Parma OH</option>
+<option value="Parsippany-Troy Hills Township NJ">Parsippany-Troy Hills Township NJ</option>
+<option value="Pasadena CA">Pasadena CA</option>
+<option value="Pasadena TX">Pasadena TX</option>
+<option value="Pasco WA">Pasco WA</option>
+<option value="Passaic NJ">Passaic NJ</option>
+<option value="Paterson NJ">Paterson NJ</option>
+<option value="Pawtucket RI">Pawtucket RI</option>
+<option value="Peabody MA">Peabody MA</option>
+<option value="Pearland TX">Pearland TX</option>
+<option value="Pembroke Pines FL">Pembroke Pines FL</option>
+<option value="Penn Hills PA">Penn Hills PA</option>
+<option value="Pensacola FL">Pensacola FL</option>
+<option value="Peoria AZ">Peoria AZ</option>
+<option value="Peoria IL">Peoria IL</option>
+<option value="Perris CA">Perris CA</option>
+<option value="Perth Amboy NJ">Perth Amboy NJ</option>
+<option value="Petaluma CA">Petaluma CA</option>
+<option value="Pharr TX">Pharr TX</option>
+<option value="Philadelphia PA">Philadelphia PA</option>
+<option value="Phoenix AZ">Phoenix AZ</option>
+<option value="Pico Rivera CA">Pico Rivera CA</option>
+<option value="Pierre SD">Pierre SD</option>
+<option value="Pine Bluff AR">Pine Bluff AR</option>
+<option value="Pine Hills FL">Pine Hills FL</option>
+<option value="Pinellas Park FL">Pinellas Park FL</option>
+<option value="Pittsburg CA">Pittsburg CA</option>
+<option value="Pittsburgh PA">Pittsburgh PA</option>
+<option value="Pittsfield MA">Pittsfield MA</option>
+<option value="Placentia CA">Placentia CA</option>
+<option value="Plainfield NJ">Plainfield NJ</option>
+<option value="Plano TX">Plano TX</option>
+<option value="Plantation FL">Plantation FL</option>
+<option value="Pleasanton CA">Pleasanton CA</option>
+<option value="Plymouth MA">Plymouth MA</option>
+<option value="Plymouth MN">Plymouth MN</option>
+<option value="Pocatello ID">Pocatello ID</option>
+<option value="Pomona CA">Pomona CA</option>
+<option value="Pompano Beach FL">Pompano Beach FL</option>
+<option value="Pontiac MI">Pontiac MI</option>
+<option value="Port Arthur TX">Port Arthur TX</option>
+<option value="Port Charlotte FL">Port Charlotte FL</option>
+<option value="Port Orange FL">Port Orange FL</option>
+<option value="Port Saint Lucie FL">Port Saint Lucie FL</option>
+<option value="Portage MI">Portage MI</option>
+<option value="Porterville CA">Porterville CA</option>
+<option value="Portland ME">Portland ME</option>
+<option value="Portland OR">Portland OR</option>
+<option value="Portsmouth VA">Portsmouth VA</option>
+<option value="Potomac MD">Potomac MD</option>
+<option value="Poway CA">Poway CA</option>
+<option value="Prescott AZ">Prescott AZ</option>
+<option value="Providence RI">Providence RI</option>
+<option value="Provo UT">Provo UT</option>
+<option value="Pueblo CO">Pueblo CO</option>
+<option value="Quincy IL">Quincy IL</option>
+<option value="Quincy MA">Quincy MA</option>
+<option value="Racine WI">Racine WI</option>
+<option value="Raleigh NC">Raleigh NC</option>
+<option value="Rancho Cordova CA">Rancho Cordova CA</option>
+<option value="Rancho Cucamonga CA">Rancho Cucamonga CA</option>
+<option value="Rancho Palos Verdes CA">Rancho Palos Verdes CA</option>
+<option value="Rancho Santa Margarita CA">Rancho Santa Margarita CA</option>
+<option value="Rapid City SD">Rapid City SD</option>
+<option value="Reading PA">Reading PA</option>
+<option value="Redan GA">Redan GA</option>
+<option value="Redding CA">Redding CA</option>
+<option value="Redford MI">Redford MI</option>
+<option value="Redlands CA">Redlands CA</option>
+<option value="Redmond WA">Redmond WA</option>
+<option value="Redondo Beach CA">Redondo Beach CA</option>
+<option value="Redwood City CA">Redwood City CA</option>
+<option value="Reno NV">Reno NV</option>
+<option value="Renton WA">Renton WA</option>
+<option value="Reston VA">Reston VA</option>
+<option value="Revere MA">Revere MA</option>
+<option value="Rialto CA">Rialto CA</option>
+<option value="Richardson TX">Richardson TX</option>
+<option value="Richland WA">Richland WA</option>
+<option value="Richmond CA">Richmond CA</option>
+<option value="Richmond VA">Richmond VA</option>
+<option value="Rio Rancho NM">Rio Rancho NM</option>
+<option value="Riverside CA">Riverside CA</option>
+<option value="Roanoke VA">Roanoke VA</option>
+<option value="Rochester Hills MI">Rochester Hills MI</option>
+<option value="Rochester MN">Rochester MN</option>
+<option value="Rochester NY">Rochester NY</option>
+<option value="Rock Hill SC">Rock Hill SC</option>
+<option value="Rockford IL">Rockford IL</option>
+<option value="Rocklin CA">Rocklin CA</option>
+<option value="Rockville MD">Rockville MD</option>
+<option value="Rocky Mount NC">Rocky Mount NC</option>
+<option value="Rogers AR">Rogers AR</option>
+<option value="Rohnert Park CA">Rohnert Park CA</option>
+<option value="Romeoville IL">Romeoville IL</option>
+<option value="Rosemead CA">Rosemead CA</option>
+<option value="Roseville CA">Roseville CA</option>
+<option value="Roseville MI">Roseville MI</option>
+<option value="Roswell GA">Roswell GA</option>
+<option value="Roswell NM">Roswell NM</option>
+<option value="Round Rock TX">Round Rock TX</option>
+<option value="Rowland Heights CA">Rowland Heights CA</option>
+<option value="Rowlett TX">Rowlett TX</option>
+<option value="Royal Oak MI">Royal Oak MI</option>
+<option value="Sacramento CA">Sacramento CA</option>
+<option value="Saginaw MI">Saginaw MI</option>
+<option value="Saint Charles MO">Saint Charles MO</option>
+<option value="Saint Clair Shores MI">Saint Clair Shores MI</option>
+<option value="Saint Cloud MN">Saint Cloud MN</option>
+<option value="Saint George UT">Saint George UT</option>
+<option value="Saint Joseph MO">Saint Joseph MO</option>
+<option value="Saint Louis MO">Saint Louis MO</option>
+<option value="Saint Louis Park MN">Saint Louis Park MN</option>
+<option value="Saint Paul MN">Saint Paul MN</option>
+<option value="Saint Peters MO">Saint Peters MO</option>
+<option value="Saint Petersburg FL">Saint Petersburg FL</option>
+<option value="Salem NH">Salem NH</option>
+<option value="Salem OR">Salem OR</option>
+<option value="Salina KS">Salina KS</option>
+<option value="Salinas CA">Salinas CA</option>
+<option value="Salt Lake City UT">Salt Lake City UT</option>
+<option value="San Angelo TX">San Angelo TX</option>
+<option value="San Antonio TX">San Antonio TX</option>
+<option value="San Bernardino CA">San Bernardino CA</option>
+<option value="San Bruno CA">San Bruno CA</option>
+<option value="San Buenaventura CA">San Buenaventura CA</option>
+<option value="San Clemente CA">San Clemente CA</option>
+<option value="San Diego CA">San Diego CA</option>
+<option value="San Francisco CA">San Francisco CA</option>
+<option value="San Gabriel CA">San Gabriel CA</option>
+<option value="San Jose CA">San Jose CA</option>
+<option value="San Leandro CA">San Leandro CA</option>
+<option value="San Luis Obispo CA">San Luis Obispo CA</option>
+<option value="San Marcos CA">San Marcos CA</option>
+<option value="San Marcos TX">San Marcos TX</option>
+<option value="San Mateo CA">San Mateo CA</option>
+<option value="San Rafael CA">San Rafael CA</option>
+<option value="San Ramon CA">San Ramon CA</option>
+<option value="Sandwich ma">Sandwich ma</option>
+<option value="Sandy Springs GA">Sandy Springs GA</option>
+<option value="Sandy UT">Sandy UT</option>
+<option value="Sanford FL">Sanford FL</option>
+<option value="Santa Ana CA">Santa Ana CA</option>
+<option value="Santa Barbara CA">Santa Barbara CA</option>
+<option value="Santa Clara CA">Santa Clara CA</option>
+<option value="Santa Clarita CA">Santa Clarita CA</option>
+<option value="Santa Cruz CA">Santa Cruz CA</option>
+<option value="Santa Fe NM">Santa Fe NM</option>
+<option value="Santa Maria CA">Santa Maria CA</option>
+<option value="Santa Monica CA">Santa Monica CA</option>
+<option value="Santa Rosa CA">Santa Rosa CA</option>
+<option value="Santee CA">Santee CA</option>
+<option value="Sarasota FL">Sarasota FL</option>
+<option value="Savannah GA">Savannah GA</option>
+<option value="Sayreville NJ">Sayreville NJ</option>
+<option value="Schaumburg IL">Schaumburg IL</option>
+<option value="Schenectady NY">Schenectady NY</option>
+<option value="Scottsdale AZ">Scottsdale AZ</option>
+<option value="Scranton PA">Scranton PA</option>
+<option value="Seattle Hill-Silver Firs WA">Seattle Hill-Silver Firs WA</option>
+<option value="Seattle WA">Seattle WA</option>
+<option value="Severn MD">Severn MD</option>
+<option value="Shawnee KS">Shawnee KS</option>
+<option value="Sheboygan WI">Sheboygan WI</option>
+<option value="Shelton CT">Shelton CT</option>
+<option value="Shoreline WA">Shoreline WA</option>
+<option value="Shreveport LA">Shreveport LA</option>
+<option value="Sierra Vista AZ">Sierra Vista AZ</option>
+<option value="Silver Spring MD">Silver Spring MD</option>
+<option value="Simi Valley CA">Simi Valley CA</option>
+<option value="Sioux City IA">Sioux City IA</option>
+<option value="Sioux Falls SD">Sioux Falls SD</option>
+<option value="Skokie IL">Skokie IL</option>
+<option value="Smyrna GA">Smyrna GA</option>
+<option value="Somerville MA">Somerville MA</option>
+<option value="South Bend IN">South Bend IN</option>
+<option value="South Gate CA">South Gate CA</option>
+<option value="South Hill WA">South Hill WA</option>
+<option value="South San Francisco CA">South San Francisco CA</option>
+<option value="South Valley NM">South Valley NM</option>
+<option value="South Whittier CA">South Whittier CA</option>
+<option value="Southaven MS">Southaven MS</option>
+<option value="Southfield MI">Southfield MI</option>
+<option value="Southglenn CO">Southglenn CO</option>
+<option value="Sparks NV">Sparks NV</option>
+<option value="Spokane WA">Spokane WA</option>
+<option value="Spring Hill FL">Spring Hill FL</option>
+<option value="Spring Valley NV">Spring Valley NV</option>
+<option value="Springdale AR">Springdale AR</option>
+<option value="Springfield IL">Springfield IL</option>
+<option value="Springfield MA">Springfield MA</option>
+<option value="Springfield MO">Springfield MO</option>
+<option value="Springfield OH">Springfield OH</option>
+<option value="Springfield OR">Springfield OR</option>
+<option value="Stamford CT">Stamford CT</option>
+<option value="State College PA">State College PA</option>
+<option value="Sterling Heights MI">Sterling Heights MI</option>
+<option value="Sterling VA">Sterling VA</option>
+<option value="Stillwater OK">Stillwater OK</option>
+<option value="Stockton CA">Stockton CA</option>
+<option value="Stratford CT">Stratford CT</option>
+<option value="Strongsville OH">Strongsville OH</option>
+<option value="Suffolk VA">Suffolk VA</option>
+<option value="Sugar Land TX">Sugar Land TX</option>
+<option value="Sumter SC">Sumter SC</option>
+<option value="Sun City AZ">Sun City AZ</option>
+<option value="Sunnyvale CA">Sunnyvale CA</option>
+<option value="Sunrise FL">Sunrise FL</option>
+<option value="Sunrise Manor NV">Sunrise Manor NV</option>
+<option value="Surprise AZ">Surprise AZ</option>
+<option value="Syracuse NY">Syracuse NY</option>
+<option value="Tacoma WA">Tacoma WA</option>
+<option value="Tallahassee FL">Tallahassee FL</option>
+<option value="Tamarac FL">Tamarac FL</option>
+<option value="Tamiami FL">Tamiami FL</option>
+<option value="Tampa FL">Tampa FL</option>
+<option value="Taunton MA">Taunton MA</option>
+<option value="Taylor MI">Taylor MI</option>
+<option value="Taylorsville UT">Taylorsville UT</option>
+<option value="Teaneck NJ">Teaneck NJ</option>
+<option value="Temecula CA">Temecula CA</option>
+<option value="Tempe AZ">Tempe AZ</option>
+<option value="Temple TX">Temple TX</option>
+<option value="Terre Haute IN">Terre Haute IN</option>
+<option value="Texas City TX">Texas City TX</option>
+<option value="The Colony TX">The Colony TX</option>
+<option value="The Hammocks FL">The Hammocks FL</option>
+<option value="The Woodlands TX">The Woodlands TX</option>
+<option value="Thornton CO">Thornton CO</option>
+<option value="Thousand Oaks CA">Thousand Oaks CA</option>
+<option value="Tigard OR">Tigard OR</option>
+<option value="Tinley Park IL">Tinley Park IL</option>
+<option value="Titusville FL">Titusville FL</option>
+<option value="Toledo OH">Toledo OH</option>
+<option value="Toms River NJ">Toms River NJ</option>
+<option value="Tonawanda CDP NY">Tonawanda CDP NY</option>
+<option value="Topeka KS">Topeka KS</option>
+<option value="Torrance CA">Torrance CA</option>
+<option value="Town&#39;n&#39;Country FL">Town'n'Country FL</option>
+<option value="Towson MD">Towson MD</option>
+<option value="Tracy CA">Tracy CA</option>
+<option value="Trenton NJ">Trenton NJ</option>
+<option value="Troy MI">Troy MI</option>
+<option value="Troy NY">Troy NY</option>
+<option value="Tuckahoe VA">Tuckahoe VA</option>
+<option value="Tucson AZ">Tucson AZ</option>
+<option value="Tulare CA">Tulare CA</option>
+<option value="Tulsa OK">Tulsa OK</option>
+<option value="Turlock CA">Turlock CA</option>
+<option value="Tuscaloosa AL">Tuscaloosa AL</option>
+<option value="Tustin CA">Tustin CA</option>
+<option value="Twin Falls ID">Twin Falls ID</option>
+<option value="Tyler TX">Tyler TX</option>
+<option value="Union City CA">Union City CA</option>
+<option value="Union City NJ">Union City NJ</option>
+<option value="Union NJ">Union NJ</option>
+<option value="Upland CA">Upland CA</option>
+<option value="Urbana IL">Urbana IL</option>
+<option value="Utica NY">Utica NY</option>
+<option value="Vacaville CA">Vacaville CA</option>
+<option value="Valdosta GA">Valdosta GA</option>
+<option value="Vallejo CA">Vallejo CA</option>
+<option value="Vancouver WA">Vancouver WA</option>
+<option value="Vestavia Hills AL">Vestavia Hills AL</option>
+<option value="Victoria TX">Victoria TX</option>
+<option value="Victorville CA">Victorville CA</option>
+<option value="Vineland NJ">Vineland NJ</option>
+<option value="Virginia Beach VA">Virginia Beach VA</option>
+<option value="Visalia CA">Visalia CA</option>
+<option value="Vista CA">Vista CA</option>
+<option value="WASHINGTON DC">WASHINGTON DC</option>
+<option value="Waco TX">Waco TX</option>
+<option value="Walnut Creek CA">Walnut Creek CA</option>
+<option value="Walpole MA">Walpole MA</option>
+<option value="Waltham MA">Waltham MA</option>
+<option value="Warner Robins GA">Warner Robins GA</option>
+<option value="Warren MI">Warren MI</option>
+<option value="Warren OH">Warren OH</option>
+<option value="Warwick RI">Warwick RI</option>
+<option value="Waterbury CT">Waterbury CT</option>
+<option value="Waterford MI">Waterford MI</option>
+<option value="Waterloo IA">Waterloo IA</option>
+<option value="Watsonville CA">Watsonville CA</option>
+<option value="Waukegan IL">Waukegan IL</option>
+<option value="Waukesha WI">Waukesha WI</option>
+<option value="Wauwatosa WI">Wauwatosa WI</option>
+<option value="Wayne NJ">Wayne NJ</option>
+<option value="Wellington FL">Wellington FL</option>
+<option value="West Allis WI">West Allis WI</option>
+<option value="West Babylon NY">West Babylon NY</option>
+<option value="West Bloomfield Township MI">West Bloomfield Township MI</option>
+<option value="West Covina CA">West Covina CA</option>
+<option value="West Des Moines IA">West Des Moines IA</option>
+<option value="West Hartford CT">West Hartford CT</option>
+<option value="West Haven CT">West Haven CT</option>
+<option value="West Jordan UT">West Jordan UT</option>
+<option value="West New York NY">West New York NY</option>
+<option value="West Orange NJ">West Orange NJ</option>
+<option value="West Palm Beach FL">West Palm Beach FL</option>
+<option value="West Sacramento CA">West Sacramento CA</option>
+<option value="West Seneca NY">West Seneca NY</option>
+<option value="West Valley City UT">West Valley City UT</option>
+<option value="Westborough MA">Westborough MA</option>
+<option value="Westfield MA">Westfield MA</option>
+<option value="Westland MI">Westland MI</option>
+<option value="Westminster CA">Westminster CA</option>
+<option value="Westminster CO">Westminster CO</option>
+<option value="Weston FL">Weston FL</option>
+<option value="Weymouth MA">Weymouth MA</option>
+<option value="Wheaton IL">Wheaton IL</option>
+<option value="Wheaton-Glenmont MD">Wheaton-Glenmont MD</option>
+<option value="White Plains NY">White Plains NY</option>
+<option value="Whittier CA">Whittier CA</option>
+<option value="Wichita Falls TX">Wichita Falls TX</option>
+<option value="Wichita KS">Wichita KS</option>
+<option value="Wilkes-Barre PA">Wilkes-Barre PA</option>
+<option value="Wilmington DE">Wilmington DE</option>
+<option value="Wilmington NC">Wilmington NC</option>
+<option value="Wilson NC">Wilson NC</option>
+<option value="Winston-Salem NC">Winston-Salem NC</option>
+<option value="Woodbury MN">Woodbury MN</option>
+<option value="Woodland CA">Woodland CA</option>
+<option value="Woonsocket RI">Woonsocket RI</option>
+<option value="Worcester MA">Worcester MA</option>
+<option value="Wyoming MI">Wyoming MI</option>
+<option value="Yakima WA">Yakima WA</option>
+<option value="Yonkers NY">Yonkers NY</option>
+<option value="Yorba Linda CA">Yorba Linda CA</option>
+<option value="Youngstown OH">Youngstown OH</option>
+<option value="Yuba City CA">Yuba City CA</option>
+<option value="Yucaipa CA">Yucaipa CA</option>
+<option value="Yuma AZ">Yuma AZ</option></select>
+<script type="application/json" data-for="city" data-nonempty="">{}</script>
+</div>
+
+<p></div>
+</form>
+</div>
+</div>
+</div>
+</div>&lt;!&ndash;/html_preserve&ndash;&gt;</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Demo</h3>
+<div class="slideContent" >
+<p>The app developed for the first part of the assignment demo is avalilable at <a href="https://itexpertsh.shinyapps.io/usa_populations/">here</a></p>
+
+</div>
+
+</section>
+
+
+  </div>
+  </div>
+
+  <script type="text/javascript"  >
+/**
+    Head JS     The only script in your <HEAD>
+    Copyright   Tero Piirainen (tipiirai)
+    License     MIT / http://bit.ly/mit-license
+    Version     0.96
+
+    http://headjs.com
+*/(function(a){function z(){d||(d=!0,s(e,function(a){p(a)}))}function y(c,d){var e=a.createElement("script");e.type="text/"+(c.type||"javascript"),e.src=c.src||c,e.async=!1,e.onreadystatechange=e.onload=function(){var a=e.readyState;!d.done&&(!a||/loaded|complete/.test(a))&&(d.done=!0,d())},(a.body||b).appendChild(e)}function x(a,b){if(a.state==o)return b&&b();if(a.state==n)return k.ready(a.name,b);if(a.state==m)return a.onpreload.push(function(){x(a,b)});a.state=n,y(a.url,function(){a.state=o,b&&b(),s(g[a.name],function(a){p(a)}),u()&&d&&s(g.ALL,function(a){p(a)})})}function w(a,b){a.state===undefined&&(a.state=m,a.onpreload=[],y({src:a.url,type:"cache"},function(){v(a)}))}function v(a){a.state=l,s(a.onpreload,function(a){a.call()})}function u(a){a=a||h;var b;for(var c in a){if(a.hasOwnProperty(c)&&a[c].state!=o)return!1;b=!0}return b}function t(a){return Object.prototype.toString.call(a)=="[object Function]"}function s(a,b){if(!!a){typeof a=="object"&&(a=[].slice.call(a));for(var c=0;c<a.length;c++)b.call(a,a[c],c)}}function r(a){var b;if(typeof a=="object")for(var c in a)a[c]&&(b={name:c,url:a[c]});else b={name:q(a),url:a};var d=h[b.name];if(d&&d.url===b.url)return d;h[b.name]=b;return b}function q(a){var b=a.split("/"),c=b[b.length-1],d=c.indexOf("?");return d!=-1?c.substring(0,d):c}function p(a){a._done||(a(),a._done=1)}var b=a.documentElement,c,d,e=[],f=[],g={},h={},i=a.createElement("script").async===!0||"MozAppearance"in a.documentElement.style||window.opera,j=window.head_conf&&head_conf.head||"head",k=window[j]=window[j]||function(){k.ready.apply(null,arguments)},l=1,m=2,n=3,o=4;i?k.js=function(){var a=arguments,b=a[a.length-1],c={};t(b)||(b=null),s(a,function(d,e){d!=b&&(d=r(d),c[d.name]=d,x(d,b&&e==a.length-2?function(){u(c)&&p(b)}:null))});return k}:k.js=function(){var a=arguments,b=[].slice.call(a,1),d=b[0];if(!c){f.push(function(){k.js.apply(null,a)});return k}d?(s(b,function(a){t(a)||w(r(a))}),x(r(a[0]),t(d)?d:function(){k.js.apply(null,b)})):x(r(a[0]));return k},k.ready=function(b,c){if(b==a){d?p(c):e.push(c);return k}t(b)&&(c=b,b="ALL");if(typeof b!="string"||!t(c))return k;var f=h[b];if(f&&f.state==o||b=="ALL"&&u()&&d){p(c);return k}var i=g[b];i?i.push(c):i=g[b]=[c];return k},k.ready(a,function(){u()&&s(g.ALL,function(a){p(a)}),k.feature&&k.feature("domloaded",!0)});if(window.addEventListener)a.addEventListener("DOMContentLoaded",z,!1),window.addEventListener("load",z,!1);else if(window.attachEvent){a.attachEvent("onreadystatechange",function(){a.readyState==="complete"&&z()});var A=1;try{A=window.frameElement}catch(B){}!A&&b.doScroll&&function(){try{b.doScroll("left"),z()}catch(a){setTimeout(arguments.callee,1);return}}(),window.attachEvent("onload",z)}!a.readyState&&a.addEventListener&&(a.readyState="loading",a.addEventListener("DOMContentLoaded",handler=function(){a.removeEventListener("DOMContentLoaded",handler,!1),a.readyState="complete"},!1)),setTimeout(function(){c=!0,s(f,function(a){a()})},300)})(document)
+</script>
+  
+  <script type="text/javascript"  >
+/*!
+ * reveal.js 2.4.0 (2013-04-29, 22:06)
+ * http://lab.hakim.se/reveal-js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 Hakim El Hattab, http://hakim.se
+ */
+var Reveal=function(){"use strict";function e(e){return Mt||kt?(window.addEventListener("load",h,!1),c(bt,e),n(),r(),void 0):(document.body.setAttribute("class","no-transforms"),void 0)}function t(){if(Tt.theme=document.querySelector("#theme"),Tt.wrapper=document.querySelector(".reveal"),Tt.slides=document.querySelector(".reveal .slides"),!Tt.wrapper.querySelector(".progress")){var e=document.createElement("div");e.classList.add("progress"),e.innerHTML="<span></span>",Tt.wrapper.appendChild(e)}if(!Tt.wrapper.querySelector(".controls")){var t=document.createElement("aside");t.classList.add("controls"),t.innerHTML='<div class="navigate-left"></div><div class="navigate-right"></div><div class="navigate-up"></div><div class="navigate-down"></div>',Tt.wrapper.appendChild(t)}if(!Tt.wrapper.querySelector(".state-background")){var n=document.createElement("div");n.classList.add("state-background"),Tt.wrapper.appendChild(n)}if(!Tt.wrapper.querySelector(".pause-overlay")){var r=document.createElement("div");r.classList.add("pause-overlay"),Tt.wrapper.appendChild(r)}Tt.progress=document.querySelector(".reveal .progress"),Tt.progressbar=document.querySelector(".reveal .progress span"),bt.controls&&(Tt.controls=document.querySelector(".reveal .controls"),Tt.controlsLeft=l(document.querySelectorAll(".navigate-left")),Tt.controlsRight=l(document.querySelectorAll(".navigate-right")),Tt.controlsUp=l(document.querySelectorAll(".navigate-up")),Tt.controlsDown=l(document.querySelectorAll(".navigate-down")),Tt.controlsPrev=l(document.querySelectorAll(".navigate-prev")),Tt.controlsNext=l(document.querySelectorAll(".navigate-next")))}function n(){/iphone|ipod|android/gi.test(navigator.userAgent)&&!/crios/gi.test(navigator.userAgent)&&(window.addEventListener("load",u,!1),window.addEventListener("orientationchange",u,!1))}function r(){function e(){n.length&&head.js.apply(null,n),o()}for(var t=[],n=[],r=0,a=bt.dependencies.length;a>r;r++){var s=bt.dependencies[r];(!s.condition||s.condition())&&(s.async?n.push(s.src):t.push(s.src),"function"==typeof s.callback&&head.ready(s.src.match(/([\w\d_\-]*)\.?js$|[^\\\/]*$/i)[0],s.callback))}t.length?(head.ready(e),head.js.apply(null,t)):e()}function o(){t(),a(),H(),setTimeout(function(){f("ready",{indexh:St,indexv:At,currentSlide:ht})},1)}function a(e){if(Tt.wrapper.classList.remove(bt.transition),"object"==typeof e&&c(bt,e),kt===!1&&(bt.transition="linear"),Tt.wrapper.classList.add(bt.transition),Tt.wrapper.setAttribute("data-transition-speed",bt.transitionSpeed),Tt.controls&&(Tt.controls.style.display=bt.controls&&Tt.controls?"block":"none"),Tt.progress&&(Tt.progress.style.display=bt.progress&&Tt.progress?"block":"none"),bt.rtl?Tt.wrapper.classList.add("rtl"):Tt.wrapper.classList.remove("rtl"),bt.center?Tt.wrapper.classList.add("center"):Tt.wrapper.classList.remove("center"),bt.mouseWheel?(document.addEventListener("DOMMouseScroll",ot,!1),document.addEventListener("mousewheel",ot,!1)):(document.removeEventListener("DOMMouseScroll",ot,!1),document.removeEventListener("mousewheel",ot,!1)),bt.rollingLinks?v():p(),bt.theme&&Tt.theme){var t=Tt.theme.getAttribute("href"),n=/[^\/]*?(?=\.css)/,r=t.match(n)[0];bt.theme!==r&&(t=t.replace(n,bt.theme),Tt.theme.setAttribute("href",t))}P()}function s(){Yt=!0,window.addEventListener("hashchange",ft,!1),window.addEventListener("resize",vt,!1),bt.touch&&(Tt.wrapper.addEventListener("touchstart",G,!1),Tt.wrapper.addEventListener("touchmove",J,!1),Tt.wrapper.addEventListener("touchend",et,!1),window.navigator.msPointerEnabled&&(Tt.wrapper.addEventListener("MSPointerDown",tt,!1),Tt.wrapper.addEventListener("MSPointerMove",nt,!1),Tt.wrapper.addEventListener("MSPointerUp",rt,!1))),bt.keyboard&&document.addEventListener("keydown",B,!1),bt.progress&&Tt.progress&&Tt.progress.addEventListener("click",at,!1),bt.controls&&Tt.controls&&["touchstart","click"].forEach(function(e){Tt.controlsLeft.forEach(function(t){t.addEventListener(e,st,!1)}),Tt.controlsRight.forEach(function(t){t.addEventListener(e,it,!1)}),Tt.controlsUp.forEach(function(t){t.addEventListener(e,ct,!1)}),Tt.controlsDown.forEach(function(t){t.addEventListener(e,lt,!1)}),Tt.controlsPrev.forEach(function(t){t.addEventListener(e,dt,!1)}),Tt.controlsNext.forEach(function(t){t.addEventListener(e,ut,!1)})})}function i(){Yt=!1,document.removeEventListener("keydown",B,!1),window.removeEventListener("hashchange",ft,!1),window.removeEventListener("resize",vt,!1),Tt.wrapper.removeEventListener("touchstart",G,!1),Tt.wrapper.removeEventListener("touchmove",J,!1),Tt.wrapper.removeEventListener("touchend",et,!1),window.navigator.msPointerEnabled&&(Tt.wrapper.removeEventListener("MSPointerDown",tt,!1),Tt.wrapper.removeEventListener("MSPointerMove",nt,!1),Tt.wrapper.removeEventListener("MSPointerUp",rt,!1)),bt.progress&&Tt.progress&&Tt.progress.removeEventListener("click",at,!1),bt.controls&&Tt.controls&&["touchstart","click"].forEach(function(e){Tt.controlsLeft.forEach(function(t){t.removeEventListener(e,st,!1)}),Tt.controlsRight.forEach(function(t){t.removeEventListener(e,it,!1)}),Tt.controlsUp.forEach(function(t){t.removeEventListener(e,ct,!1)}),Tt.controlsDown.forEach(function(t){t.removeEventListener(e,lt,!1)}),Tt.controlsPrev.forEach(function(t){t.removeEventListener(e,dt,!1)}),Tt.controlsNext.forEach(function(t){t.removeEventListener(e,ut,!1)})})}function c(e,t){for(var n in t)e[n]=t[n]}function l(e){return Array.prototype.slice.call(e)}function d(e,t){var n=e.x-t.x,r=e.y-t.y;return Math.sqrt(n*n+r*r)}function u(){0===window.orientation?(document.documentElement.style.overflow="scroll",document.body.style.height="120%"):(document.documentElement.style.overflow="",document.body.style.height="100%"),setTimeout(function(){window.scrollTo(0,1)},10)}function f(e,t){var n=document.createEvent("HTMLEvents",1,2);n.initEvent(e,!0,!0),c(n,t),Tt.wrapper.dispatchEvent(n)}function v(){if(kt&&!("msPerspective"in document.body.style))for(var e=document.querySelectorAll(gt+" a:not(.image)"),t=0,n=e.length;n>t;t++){var r=e[t];if(!(!r.textContent||r.querySelector("*")||r.className&&r.classList.contains(r,"roll"))){var o=document.createElement("span");o.setAttribute("data-title",r.text),o.innerHTML=r.innerHTML,r.classList.add("roll"),r.innerHTML="",r.appendChild(o)}}}function p(){for(var e=document.querySelectorAll(gt+" a.roll"),t=0,n=e.length;n>t;t++){var r=e[t],o=r.querySelector("span");o&&(r.classList.remove("roll"),r.innerHTML=o.innerHTML)}}function m(e){var t=l(e);return t.forEach(function(e,t){e.hasAttribute("data-fragment-index")||e.setAttribute("data-fragment-index",t)}),t.sort(function(e,t){return e.getAttribute("data-fragment-index")-t.getAttribute("data-fragment-index")}),t}function h(){if(Tt.wrapper){var e=Tt.wrapper.offsetWidth,t=Tt.wrapper.offsetHeight;e-=t*bt.margin,t-=t*bt.margin;var n=bt.width,r=bt.height;if("string"==typeof n&&/%$/.test(n)&&(n=parseInt(n,10)/100*e),"string"==typeof r&&/%$/.test(r)&&(r=parseInt(r,10)/100*t),Tt.slides.style.width=n+"px",Tt.slides.style.height=r+"px",xt=Math.min(e/n,t/r),xt=Math.max(xt,bt.minScale),xt=Math.min(xt,bt.maxScale),void 0===Tt.slides.style.zoom||navigator.userAgent.match(/(iphone|ipod|ipad|android)/gi)){var o="translate(-50%, -50%) scale("+xt+") translate(50%, 50%)";Tt.slides.style.WebkitTransform=o,Tt.slides.style.MozTransform=o,Tt.slides.style.msTransform=o,Tt.slides.style.OTransform=o,Tt.slides.style.transform=o}else Tt.slides.style.zoom=xt;for(var a=l(document.querySelectorAll(gt)),s=0,i=a.length;i>s;s++){var c=a[s];"none"!==c.style.display&&(c.style.top=bt.center?c.classList.contains("stack")?0:Math.max(-(c.offsetHeight/2)-20,-r/2)+"px":"")}N()}}function g(e,t){"object"==typeof e&&"function"==typeof e.setAttribute&&e.setAttribute("data-previous-indexv",t||0)}function y(e){return"object"==typeof e&&"function"==typeof e.setAttribute&&e.classList.contains("stack")?parseInt(e.getAttribute("data-previous-indexv")||0,10):0}function w(){if(bt.overview){_();var e=Tt.wrapper.classList.contains("overview");Tt.wrapper.classList.add("overview"),Tt.wrapper.classList.remove("exit-overview"),clearTimeout(Ct),clearTimeout(Ot),Ct=setTimeout(function(){for(var t=document.querySelectorAll(yt),n=0,r=t.length;r>n;n++){var o=t[n],a=bt.rtl?-105:105,s="translateZ(-2500px) translate("+(n-St)*a+"%, 0%)";if(o.setAttribute("data-index-h",n),o.style.display="block",o.style.WebkitTransform=s,o.style.MozTransform=s,o.style.msTransform=s,o.style.OTransform=s,o.style.transform=s,o.classList.contains("stack"))for(var i=o.querySelectorAll("section"),c=0,l=i.length;l>c;c++){var d=n===St?At:y(o),u=i[c],v="translate(0%, "+105*(c-d)+"%)";u.setAttribute("data-index-h",n),u.setAttribute("data-index-v",c),u.style.display="block",u.style.WebkitTransform=v,u.style.MozTransform=v,u.style.msTransform=v,u.style.OTransform=v,u.style.transform=v,u.addEventListener("click",pt,!0)}else o.addEventListener("click",pt,!0)}h(),e||f("overviewshown",{indexh:St,indexv:At,currentSlide:ht})},10)}}function L(){if(bt.overview){clearTimeout(Ct),clearTimeout(Ot),Tt.wrapper.classList.remove("overview"),Tt.wrapper.classList.add("exit-overview"),Ot=setTimeout(function(){Tt.wrapper.classList.remove("exit-overview")},10);for(var e=l(document.querySelectorAll(gt)),t=0,n=e.length;n>t;t++){var r=e[t];r.style.display="",r.style.WebkitTransform="",r.style.MozTransform="",r.style.msTransform="",r.style.OTransform="",r.style.transform="",r.removeEventListener("click",pt,!0)}M(St,At),F(),f("overviewhidden",{indexh:St,indexv:At,currentSlide:ht})}}function b(e){"boolean"==typeof e?e?w():L():E()?L():w()}function E(){return Tt.wrapper.classList.contains("overview")}function S(e){return e=e?e:ht,e&&!!e.parentNode.nodeName.match(/section/i)}function A(){var e=document.body,t=e.requestFullScreen||e.webkitRequestFullscreen||e.webkitRequestFullScreen||e.mozRequestFullScreen||e.msRequestFullScreen;t&&t.apply(e)}function q(){var e=Tt.wrapper.classList.contains("paused");_(),Tt.wrapper.classList.add("paused"),e===!1&&f("paused")}function x(){var e=Tt.wrapper.classList.contains("paused");Tt.wrapper.classList.remove("paused"),F(),e&&f("resumed")}function T(){k()?x():q()}function k(){return Tt.wrapper.classList.contains("paused")}function M(e,t,n,r){mt=ht;var o=document.querySelectorAll(yt);void 0===t&&(t=y(o[e])),mt&&mt.parentNode&&mt.parentNode.classList.contains("stack")&&g(mt.parentNode,At);var a=qt.concat();qt.length=0;var s=St,i=At;St=D(yt,void 0===e?St:e),At=D(wt,void 0===t?At:t),h();e:for(var c=0,d=qt.length;d>c;c++){for(var u=0;a.length>u;u++)if(a[u]===qt[c]){a.splice(u,1);continue e}document.documentElement.classList.add(qt[c]),f(qt[c])}for(;a.length;)document.documentElement.classList.remove(a.pop());E()&&w(),I(1500);var v=o[St],p=v.querySelectorAll("section");if(ht=p[At]||v,n!==void 0){var L=m(ht.querySelectorAll(".fragment"));l(L).forEach(function(e,t){n>t?e.classList.add("visible"):e.classList.remove("visible")})}St!==s||At!==i?f("slidechanged",{indexh:St,indexv:At,previousSlide:mt,currentSlide:ht,origin:r}):mt=null,mt&&(mt.classList.remove("present"),document.querySelector(Lt).classList.contains("present")&&setTimeout(function(){var e,t=l(document.querySelectorAll(yt+".stack"));for(e in t)t[e]&&g(t[e],0)},0)),X(mt),R(ht),C(),N()}function P(){i(),s(),h(),Et=bt.autoSlide,F(),C(),N()}function D(e,t){var n=l(document.querySelectorAll(e)),r=n.length;if(r){bt.loop&&(t%=r,0>t&&(t=r+t)),t=Math.max(Math.min(t,r-1),0);for(var o=0;r>o;o++){var a=n[o];if(E()===!1){var s=Math.abs((t-o)%(r-3))||0;a.style.display=s>3?"none":"block"}var i=bt.rtl&&!S(a);a.classList.remove("past"),a.classList.remove("present"),a.classList.remove("future"),t>o?a.classList.add(i?"future":"past"):o>t&&a.classList.add(i?"past":"future"),a.querySelector("section")&&a.classList.add("stack")}n[t].classList.add("present");var c=n[t].getAttribute("data-state");c&&(qt=qt.concat(c.split(" ")));var d=n[t].getAttribute("data-autoslide");Et=d?parseInt(d,10):bt.autoSlide}else t=0;return t}function N(){if(bt.progress&&Tt.progress){var e=l(document.querySelectorAll(yt)),t=document.querySelectorAll(gt+":not(.stack)").length,n=0;e:for(var r=0;e.length>r;r++){for(var o=e[r],a=l(o.querySelectorAll("section")),s=0;a.length>s;s++){if(a[s].classList.contains("present"))break e;n++}if(o.classList.contains("present"))break;o.classList.contains("stack")===!1&&n++}Tt.progressbar.style.width=n/(t-1)*window.innerWidth+"px"}}function C(){if(bt.controls&&Tt.controls){var e=O(),t=Y();Tt.controlsLeft.concat(Tt.controlsRight).concat(Tt.controlsUp).concat(Tt.controlsDown).concat(Tt.controlsPrev).concat(Tt.controlsNext).forEach(function(e){e.classList.remove("enabled"),e.classList.remove("fragmented")}),e.left&&Tt.controlsLeft.forEach(function(e){e.classList.add("enabled")}),e.right&&Tt.controlsRight.forEach(function(e){e.classList.add("enabled")}),e.up&&Tt.controlsUp.forEach(function(e){e.classList.add("enabled")}),e.down&&Tt.controlsDown.forEach(function(e){e.classList.add("enabled")}),(e.left||e.up)&&Tt.controlsPrev.forEach(function(e){e.classList.add("enabled")}),(e.right||e.down)&&Tt.controlsNext.forEach(function(e){e.classList.add("enabled")}),ht&&(t.prev&&Tt.controlsPrev.forEach(function(e){e.classList.add("fragmented","enabled")}),t.next&&Tt.controlsNext.forEach(function(e){e.classList.add("fragmented","enabled")}),S(ht)?(t.prev&&Tt.controlsUp.forEach(function(e){e.classList.add("fragmented","enabled")}),t.next&&Tt.controlsDown.forEach(function(e){e.classList.add("fragmented","enabled")})):(t.prev&&Tt.controlsLeft.forEach(function(e){e.classList.add("fragmented","enabled")}),t.next&&Tt.controlsRight.forEach(function(e){e.classList.add("fragmented","enabled")})))}}function O(){var e=document.querySelectorAll(yt),t=document.querySelectorAll(wt),n={left:St>0||bt.loop,right:e.length-1>St||bt.loop,up:At>0,down:t.length-1>At};if(bt.rtl){var r=n.left;n.left=n.right,n.right=r}return n}function Y(){if(ht&&bt.fragments){var e=ht.querySelectorAll(".fragment"),t=ht.querySelectorAll(".fragment:not(.visible)");return{prev:e.length-t.length>0,next:!!t.length}}return{prev:!1,next:!1}}function R(e){e&&(l(e.querySelectorAll("video, audio")).forEach(function(e){e.hasAttribute("data-autoplay")&&e.play()}),l(e.querySelectorAll('iframe[src*="youtube.com/embed/"]')).forEach(function(e){e.hasAttribute("data-autoplay")&&e.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}',"*")}))}function X(e){e&&(l(e.querySelectorAll("video, audio")).forEach(function(e){e.hasAttribute("data-ignore")||e.pause()}),l(e.querySelectorAll('iframe[src*="youtube.com/embed/"]')).forEach(function(e){e.hasAttribute("data-ignore")||"function"!=typeof e.contentWindow.postMessage||e.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")}))}function H(){var e=window.location.hash,t=e.slice(2).split("/"),n=e.replace(/#|\//gi,"");if(isNaN(parseInt(t[0],10))&&n.length){var r=document.querySelector("#"+n);if(r){var o=Reveal.getIndices(r);M(o.h,o.v)}else M(St,At)}else{var a=parseInt(t[0],10)||0,s=parseInt(t[1],10)||0;M(a,s)}}function I(e){if(bt.history)if(clearTimeout(Nt),"number"==typeof e)Nt=setTimeout(I,e);else{var t="/";ht&&"string"==typeof ht.getAttribute("id")?t="/"+ht.getAttribute("id"):((St>0||At>0)&&(t+=St),At>0&&(t+="/"+At)),window.location.hash=t}}function W(e){var t,n=St,r=At;if(e){var o=S(e),a=o?e.parentNode:e,s=l(document.querySelectorAll(yt));n=Math.max(s.indexOf(a),0),o&&(r=Math.max(l(e.parentNode.querySelectorAll("section")).indexOf(e),0))}if(!e&&ht){var i=ht.querySelectorAll(".fragment.visible");i.length&&(t=i.length)}return{h:n,v:r,f:t}}function U(){if(ht&&bt.fragments){var e=m(ht.querySelectorAll(".fragment:not(.visible)"));if(e.length)return e[0].classList.add("visible"),f("fragmentshown",{fragment:e[0]}),C(),!0}return!1}function z(){if(ht&&bt.fragments){var e=m(ht.querySelectorAll(".fragment.visible"));if(e.length)return e[e.length-1].classList.remove("visible"),f("fragmenthidden",{fragment:e[e.length-1]}),C(),!0}return!1}function F(){clearTimeout(Dt),!Et||k()||E()||(Dt=setTimeout(Q,Et))}function _(){clearTimeout(Dt)}function j(){bt.rtl?(E()||U()===!1)&&O().left&&M(St+1):(E()||z()===!1)&&O().left&&M(St-1)}function K(){bt.rtl?(E()||z()===!1)&&O().right&&M(St-1):(E()||U()===!1)&&O().right&&M(St+1)}function $(){(E()||z()===!1)&&O().up&&M(St,At-1)}function V(){(E()||U()===!1)&&O().down&&M(St,At+1)}function Z(){if(z()===!1)if(O().up)$();else{var e=document.querySelector(yt+".past:nth-child("+St+")");e&&(At=e.querySelectorAll("section").length+1||void 0,St--,M(St,At))}}function Q(){U()===!1&&(O().down?V():K()),F()}function B(e){document.activeElement;var t=!(!document.activeElement||!document.activeElement.type&&!document.activeElement.href&&"inherit"===document.activeElement.contentEditable);if(!(t||e.shiftKey&&32!==e.keyCode||e.altKey||e.ctrlKey||e.metaKey)){var n=!0;if(k()&&-1===[66,190,191].indexOf(e.keyCode))return!1;switch(e.keyCode){case 80:case 33:Z();break;case 78:case 34:Q();break;case 72:case 37:j();break;case 76:case 39:K();break;case 75:case 38:$();break;case 74:case 40:V();break;case 36:M(0);break;case 35:M(Number.MAX_VALUE);break;case 32:E()?L():e.shiftKey?Z():Q();break;case 13:E()?L():n=!1;break;case 66:case 190:case 191:T();break;case 70:A();break;default:n=!1}n?e.preventDefault():27===e.keyCode&&kt&&(b(),e.preventDefault()),F()}}function G(e){Rt.startX=e.touches[0].clientX,Rt.startY=e.touches[0].clientY,Rt.startCount=e.touches.length,2===e.touches.length&&bt.overview&&(Rt.startSpan=d({x:e.touches[1].clientX,y:e.touches[1].clientY},{x:Rt.startX,y:Rt.startY}))}function J(e){if(Rt.handled)navigator.userAgent.match(/android/gi)&&e.preventDefault();else{var t=e.touches[0].clientX,n=e.touches[0].clientY;if(2===e.touches.length&&2===Rt.startCount&&bt.overview){var r=d({x:e.touches[1].clientX,y:e.touches[1].clientY},{x:Rt.startX,y:Rt.startY});Math.abs(Rt.startSpan-r)>Rt.threshold&&(Rt.handled=!0,Rt.startSpan>r?w():L()),e.preventDefault()}else if(1===e.touches.length&&2!==Rt.startCount){var o=t-Rt.startX,a=n-Rt.startY;o>Rt.threshold&&Math.abs(o)>Math.abs(a)?(Rt.handled=!0,j()):-Rt.threshold>o&&Math.abs(o)>Math.abs(a)?(Rt.handled=!0,K()):a>Rt.threshold?(Rt.handled=!0,$()):-Rt.threshold>a&&(Rt.handled=!0,V()),e.preventDefault()}}}function et(){Rt.handled=!1}function tt(e){e.pointerType===e.MSPOINTER_TYPE_TOUCH&&(e.touches=[{clientX:e.clientX,clientY:e.clientY}],G(e))}function nt(e){e.pointerType===e.MSPOINTER_TYPE_TOUCH&&(e.touches=[{clientX:e.clientX,clientY:e.clientY}],J(e))}function rt(e){e.pointerType===e.MSPOINTER_TYPE_TOUCH&&(e.touches=[{clientX:e.clientX,clientY:e.clientY}],et(e))}function ot(e){clearTimeout(Pt),Pt=setTimeout(function(){var t=e.detail||-e.wheelDelta;t>0?Q():Z()},100)}function at(e){e.preventDefault();var t=l(document.querySelectorAll(yt)).length,n=Math.floor(e.clientX/Tt.wrapper.offsetWidth*t);M(n)}function st(e){e.preventDefault(),j()}function it(e){e.preventDefault(),K()}function ct(e){e.preventDefault(),$()}function lt(e){e.preventDefault(),V()}function dt(e){e.preventDefault(),Z()}function ut(e){e.preventDefault(),Q()}function ft(){H()}function vt(){h()}function pt(e){if(Yt&&E()){e.preventDefault();for(var t=e.target;t&&!t.nodeName.match(/section/gi);)t=t.parentNode;if(t&&!t.classList.contains("disabled")&&(L(),t.nodeName.match(/section/gi))){var n=parseInt(t.getAttribute("data-index-h"),10),r=parseInt(t.getAttribute("data-index-v"),10);M(n,r)}}}var mt,ht,gt=".reveal .slides section",yt=".reveal .slides>section",wt=".reveal .slides>section.present>section",Lt=".reveal .slides>section:first-child",bt={width:960,height:700,margin:.1,minScale:.2,maxScale:1,controls:!0,progress:!0,history:!1,keyboard:!0,overview:!0,center:!0,touch:!0,loop:!1,rtl:!1,fragments:!0,autoSlide:0,mouseWheel:!1,rollingLinks:!0,theme:null,transition:"default",transitionSpeed:"default",dependencies:[]},Et=0,St=0,At=0,qt=[],xt=1,Tt={},kt="WebkitPerspective"in document.body.style||"MozPerspective"in document.body.style||"msPerspective"in document.body.style||"OPerspective"in document.body.style||"perspective"in document.body.style,Mt="WebkitTransform"in document.body.style||"MozTransform"in document.body.style||"msTransform"in document.body.style||"OTransform"in document.body.style||"transform"in document.body.style,Pt=0,Dt=0,Nt=0,Ct=0,Ot=0,Yt=!1,Rt={startX:0,startY:0,startSpan:0,startCount:0,handled:!1,threshold:80};return{initialize:e,configure:a,sync:P,slide:M,left:j,right:K,up:$,down:V,prev:Z,next:Q,prevFragment:z,nextFragment:U,navigateTo:M,navigateLeft:j,navigateRight:K,navigateUp:$,navigateDown:V,navigatePrev:Z,navigateNext:Q,layout:h,availableRoutes:O,availableFragments:Y,toggleOverview:b,togglePause:T,isOverview:E,isPaused:k,addEventListeners:s,removeEventListeners:i,getIndices:W,getSlide:function(e,t){var n=document.querySelectorAll(yt)[e],r=n&&n.querySelectorAll("section");return t!==void 0?r?r[t]:void 0:n},getPreviousSlide:function(){return mt},getCurrentSlide:function(){return ht},getScale:function(){return xt},getConfig:function(){return bt},getQueryHash:function(){var e={};return location.search.replace(/[A-Z0-9]+?=(\w*)/gi,function(t){e[t.split("=").shift()]=t.split("=").pop()}),e},isFirstSlide:function(){return null==document.querySelector(gt+".past")?!0:!1},isLastSlide:function(){return ht&&ht.classList.contains(".stack")?null==ht.querySelector(gt+".future")?!0:!1:null==document.querySelector(gt+".future")?!0:!1},addEventListener:function(e,t,n){"addEventListener"in window&&(Tt.wrapper||document.querySelector(".reveal")).addEventListener(e,t,n)},removeEventListener:function(e,t,n){"addEventListener"in window&&(Tt.wrapper||document.querySelector(".reveal")).removeEventListener(e,t,n)}}}();
+</script>
+    
+  <script type="text/javascript">
+
+// dynamically built function to get slide specific commands
+function commandsForSlide(indexh) {
+  var cmds = []; 
+  switch(indexh) {
+
+    default:
+      break;
+  };
+  return cmds;
+}      
+    
+
+   
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      overview: true,
+      center: false,
+      rollingLinks: false,
+      
+      theme: 'simple', 
+      transition: 'linear',
+      transitionSpeed: 'default',
+      rtl: false,
+      width: 960,
+      height: 700,
+    
+      dependencies: []
+    });
+
+    Reveal.addEventListener( 'ready', function( event ) {
+       // notify container
+      if (window.notifySlideChanged)
+        notifySlideChanged(event.indexh)
+    } );
+    
+    Reveal.addEventListener( 'slidechanged', function( event ) {
+         
+      // notify container
+      if (window.notifySlideChanged)
+        notifySlideChanged(event.indexh)
+     
+      // allow mathjax to re-render
+      if (window.MathJax)
+        window.MathJax.Hub.Rerender(event.currentSlide);  
+    });
+    
+    // forward command key events to the rstudio frame
+   window.onkeydown = function(e) {
+
+      // allow 'o' to toggle overview mode
+      switch( e.keyCode ) {
+         case 79: case 42: window.Reveal.toggleOverview(); break;  
+      }
+   
+      if (window.parent.presentationKeydown)
+         window.parent.presentationKeydown(e);   
+   }
+   
+   window.onresize = function() { 
+     
+     // bail if autosize is disabled
+     if (!false)
+       return;
+      
+     if(window.activeTimer)
+       clearTimeout(window.activeTimer);
+       
+     window.activeTimer = setTimeout(function() { 
+       window.location.reload(true); 
+     }, 300);
+   }
+
+   
+   
+  </script>
+
+</body>
+
+</html>

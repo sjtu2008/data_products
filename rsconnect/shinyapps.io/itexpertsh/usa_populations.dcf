@@ -1,0 +1,10 @@
+name: usa_populations
+account: itexpertsh
+server: shinyapps.io
+appId: 104993
+bundleId: 465293
+url: https://itexpertsh.shinyapps.io/usa_populations/
+when: 1464493569.09597
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: intro.md|intro.Rmd|READEME.md|READEME.Rmd

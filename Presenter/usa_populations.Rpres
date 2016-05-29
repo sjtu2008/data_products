@@ -1,0 +1,52 @@
+Population No. of The Cities in USA
+========================================================
+author: Roy Wang
+date: 26th,May 2016
+autosize: true
+
+About the project
+========================================================
+
+This is an R project that  created for the Developing Data Products Class of Coursera's Data Science Specialization.
+
+- Purpose of the project
+- Framework and data source
+- Demo 
+
+Purpose the project
+========================================================
+
+-  Display the population no. of each city in USA.
+
+-  Visualization of the populations on map of USA.
+
+
+Framework and data source
+========================================================
+- This project developed as a  Shiny APP
+- The population data of each city came from the package [maps](https://cran.r-project.org/web/packages/maps/index.html)
+- Use ggplot2 to plot the map and lable the population of each city
+- Example of list the cities of USA on a dropdown list
+```{r}
+library(shiny)
+library(maps)
+# Getting data from the us.cities 
+data(us.cities)
+
+
+# The UI of the application. On the left of the page will be dropdown list of the cities in USA
+shinyUI(
+  navbarPage("Populations Map Of The City In USA",
+             tabPanel("Map",
+  
+  sidebarPanel(    
+    selectInput('city', 'Cities of USA', choices=us.cities$name)
+    ))
+))
+
+```
+
+Demo
+========================================================
+The app developed for the first part of the assignment demo is avalilable at [here](https://itexpertsh.shinyapps.io/usa_populations/)
+
