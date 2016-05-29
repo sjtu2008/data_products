@@ -53,14 +53,14 @@ shinyUI(
 </div>
 <ul class="nav navbar-nav">
 <li class="active">
-<a href="#tab-4251-1" data-toggle="tab" data-value="Map">Map</a>
+<a href="#tab-1701-1" data-toggle="tab" data-value="Map">Map</a>
 </li>
 </ul>
 </div>
 </nav>
 <div class="container-fluid">
 <div class="tab-content">
-<div class="tab-pane active" data-value="Map" id="tab-4251-1">
+<div class="tab-pane active" data-value="Map" id="tab-1701-1">
 <div class="col-sm-4">
 <form class="well">
 <div class="form-group shiny-input-container">
@@ -1083,4 +1083,6 @@ shinyUI(
 Demo
 ========================================================
 The app developed for the first part of the assignment demo is avalilable at [here](https://itexpertsh.shinyapps.io/usa_populations/)
+
+The source code of the APP is hosted at [Github](https://github.com/sjtu2008/data_products/tree/master)
 
